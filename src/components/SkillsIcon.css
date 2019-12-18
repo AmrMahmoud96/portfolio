@@ -1,0 +1,21 @@
+.skills-icon{
+padding: 20px;
+text-align: center;
+flex: 1 0 calc(10% - 3px);
+max-width: 200px;
+}
+.skills-icon:hover{
+  cursor: pointer;
+}
+.skills-icon-img{
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.skills-icon-text{
+      color:white!important;
+font-size: 1em;
+      display: block;
+}
+.selected{
+  background-color: red!important;
+}

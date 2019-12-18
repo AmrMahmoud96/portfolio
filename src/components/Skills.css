@@ -1,0 +1,28 @@
+
+.skills{
+  background-color: black;
+   background: url(../resources/connectwork.png);
+  color:white;
+  /* display: flex; */
+  /* align-content: center; */
+}
+.skills-container{
+  /* display: inline-block; */
+  display: flex;
+  flex-flow: row wrap;
+  width:100%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+
+}
+.skills-intro{
+  margin: 20px;
+  font-size: 28px;
+  text-align: center;
+}
+/* .header{
+  background-color: cyan;
+  color:white;
+  height:80px;
+} */

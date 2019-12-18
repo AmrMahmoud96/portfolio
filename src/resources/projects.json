@@ -1,0 +1,92 @@
+[
+  {
+    "title":"EventLite Co-Founder",
+    "repolink":"https://github.com/AmrMahmoud96/Evaquint",
+    "image":"",
+    "video":"",
+    "url":"",
+    "date":"2019-11-01",
+    "description":"Designed an application in order to address a major event organization problem apparent in local communities. Implemented JWT tokens to validate users and create a robust user management system through Postgres SQL. Vouched for a service-oriented approach to develop a RESTful API back-end that scales with growing numbers of users, events, and vendors. Used Adobe XD to draft wireframes/flows with design choices that focused on simplistic UI and great UX.",
+    "tags":["Go","Java","SQL","Git","Cloud Technologies","RESTful APIs","SQL"]
+  },
+  {
+    "title":"Capstone Project: Alpha Factory",
+    "repolink":"https://github.com/AmrMahmoud96/Project-Green",
+    "image":"",
+    "video":"",
+    "url":"",
+    "date":"2018-09-01",
+    "description":"Designed and developed a fully functioning robo-advisor web app for the average retail investor. Built the application using Flask and Jinja2 for both front-end and back-end simultaneously. Applied financial models and back-testing functions to produce portfolios based on user goals and risk tolerance. Deployed the final web application to Heroku and ensured production functionality with the MongoDB database.",
+    "tags":["Python","Flask","Git","JavaScript","NoSQL","RESTful APIs","NoSQL"]
+  },
+  {
+    "title":"Autonomous Robot",
+    "repolink":"",
+    "image":"",
+    "video":"",
+    "url":"",
+    "date":"2015-09-01",
+    "description":"Strategically assigned tasks to be completed within a group through the use of Gantt charts and other planning tools and ensured the completion of project deliverables within expected deadlines. Programmed a PIC16F877 microcontroller using Assembly to take input from multiple different sensors and autonomously accomplish the tasks required of the robot. Integrated the circuits and mechanical subsystems while iteratively improving the robot to exceed project criteria",
+    "tags":[]
+  },
+  {
+    "title":"NSBE Hacks: SafeTag",
+    "repolink":"https://github.com/AmrMahmoud96/SafeTag",
+    "image":"",
+    "video":"",
+    "url":"https://devpost.com/software/safetag",
+    "date":"2019-01-26",
+    "description":"SafeTag is an iOS/Android app that uses AR to create a digital creative space for artists. Created for part of NSBE Hacks 2019, first of its kind. 1st Place Prize Winner",
+    "tags":["Git","RESTful APIs","NoSQL","nodeJS"]
+  },
+  {
+    "title":"UofT Hacks: FaceLyft",
+    "repolink":"https://github.com/kbop543/FaceLyft",
+    "image":"",
+    "video":"",
+    "url":"https://devpost.com/software/facelyft",
+    "date":"2019-01-08",
+    "description":"FaceLyft is a web app for carpool drivers that provides drivers tools for day-to-day work. Features interact e-transfer through facial recognition, smart car door lock and unlock via device and track vehicle information. Made for UoFT Hacks 2019 36 hour competition. 2nd Place Prize Winner, Best Hack using Interac e-Transfer Open API, Top 10 Prize (Entrepreneurship Hatchery)",
+    "tags":["Git","React","RESTful APIs","Machine Learning","NoSQL","nodeJS"]
+  },
+  {
+    "title":"Ryerson Hacks: Arcangel",
+    "repolink":"https://github.com/asidique/ArcAngel",
+    "image":"",
+    "video":"",
+    "url":"",
+    "date":"2018-03-30",
+    "description":"Project created in 36 hours for hackathon hosted by Ryerson University. ArcAngel is an AI that helps give soft diagnosis when given a series of symptoms. Features: Speech-to-text, appointment system, emergency info, RFID login system",
+    "tags":["Git","React","RESTful APIs","Machine Learning","nodeJS"]
+  },
+  {
+    "title":"Mission Hacks: BlueChain",
+    "repolink":"https://github.com/asidique/Project-Blue",
+    "image":"",
+    "video":"",
+    "url":"",
+    "date":"2018-03-01",
+    "description":"One of the top 5 project created in a 2 day Hackathon event hosted by Hackworks. BlueChain is an ethereum based marketplace that handles realtime transactions. Features Loyalty Point Incentives, Optional warranty for selling items, ability to search for anything on the blockchain",
+    "tags":["Git","React","nodeJS"]
+  },
+  {
+    "title":"Citadel Algorithmic Trading Competition ",
+    "repolink":"https://github.com/AmrMahmoud96/Citadel-Algo-Contest",
+    "image":"",
+    "video":"",
+    "url":"",
+    "date":"2018-11-01",
+    "description":"",
+    "tags":["Git","Python","RESTful APIs"]
+  },
+  {
+    "title":"University of Toronto Engineering Finance Association Website",
+    "repolink":"",
+    "image":"",
+    "video":"",
+    "url":"https://www.utefa.com",
+    "date":"2018-09-01",
+    "description":"",
+    "tags":["Git","Cloud Technologies","React","RESTful APIs","NoSQL","nodeJS"]
+  }
+]

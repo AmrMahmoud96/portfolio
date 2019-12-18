@@ -1,0 +1,22 @@
+.footer{
+  background-color: black;
+  color:white;
+  padding: 20px;
+}
+.footer-icon-holder{
+  width: 100%;
+  /* display: inline-block; */
+  align-items: center;
+}
+.footer-title{
+  text-align: center;
+}
+.footer-subtitle{
+  text-align: center;
+
+}
+/* .header{
+  background-color: cyan;
+  color:white;
+  height:80px;
+} */

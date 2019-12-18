@@ -1,0 +1,32 @@
+
+.head{
+    background-color: black !important;
+    color:white !important;
+    height: auto;
+}
+.navbar-brand{
+  font-size: 25px !important;
+  margin-left: 15px;
+      background-color: black !important;
+      color:white !important;
+}
+.navbar-brand:hover{
+    cursor: pointer;
+}
+.bw-color{
+        background-color: black !important;
+        color:white !important;
+}
+.nav-link{
+  color:white!important;
+  font-size: 22px;
+
+}
+.navbar{
+  background-color: black;
+  margin-bottom: 0px !important;
+}
+.nav-link:hover{
+  color:white!important;
+  text-decoration: underline !important;
+}

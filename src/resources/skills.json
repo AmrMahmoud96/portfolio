@@ -1,0 +1,58 @@
+[
+  {
+    "text":"Python",
+    "icon":"images/Python.png"
+  },
+  {
+    "text":"Java",
+    "icon":"images/Java.jpg"
+  },
+  {
+    "text":"Go",
+    "icon":"images/Go.png"
+  },
+  {
+    "text":"JavaScript",
+    "icon":"images/JS.png"
+  },
+  {
+    "text":"React",
+    "icon":"images/React.png"
+  },
+  {
+    "text":"SQL",
+    "icon":"images/SQL.png"
+  },
+  {
+    "text":"NoSQL",
+    "icon":"images/NoSQL.png"
+  },
+  {
+    "text":"nodeJS",
+    "icon":"images/nodeJS.png"
+  },
+  {
+    "text":"Selenium",
+    "icon":"images/Selenium.png"
+  },
+  {
+    "text":"Flask",
+    "icon":"images/Flask.png"
+  },
+  {
+    "text":"Git",
+    "icon":"images/Git.png"
+  },
+  {
+    "text":"Machine Learning",
+    "icon":"images/ML.png"
+  },
+  {
+    "text":"Cloud Technologies",
+    "icon":"images/Cloud.png"
+  },
+  {
+    "text":"RESTful APIs",
+    "icon":"images/API.png"
+  }
+]
