@@ -12,9 +12,10 @@ export default class BaseHeader extends Component {
       this.state = {
         navExpanded: false
       }
-    this.closeNav = this.closeNav.bind(this);
-    this.setNavExpanded = this.setNavExpanded.bind(this);
-
+        this.closeNav = this.closeNav.bind(this);
+        this.setNavExpanded = this.setNavExpanded.bind(this);
+        this.setWrapperRef = this.setWrapperRef.bind(this);
+        this.handleClickOutside = this.handleClickOutside.bind(this);
     }
 
     /**
@@ -23,6 +24,7 @@ export default class BaseHeader extends Component {
     componentDidMount() {
       this.closeNav()
       window.addEventListener("resize", this.closeNav.bind(this));
+      document.addEventListener('mousedown', this.handleClickOutside);
     }
 
     /**
@@ -30,21 +32,31 @@ export default class BaseHeader extends Component {
      */
     componentWillUnmount() {
       this.closeNav()
-      window.addEventListener("resize", this.closeNav.bind(this));
+      window.removeEventListener("resize", this.closeNav.bind(this));
+      document.removeEventListener('mousedown', this.handleClickOutside);
     }
 
-  setNavExpanded() {
-    this.setState({ navExpanded: !this.state.navExpanded });
-  }
-  closeNav() {
-    this.setState({ navExpanded: false });
-  }
+    setWrapperRef(node) {
+      this.wrapperRef = node;
+    }
+    handleClickOutside(event) {
+      if (this.wrapperRef && !this.wrapperRef.contains(event.target)) {
+        this.closeNav()
+      }
+    }
+
+    setNavExpanded() {
+      this.setState({ navExpanded: !this.state.navExpanded });
+    }
+    closeNav() {
+      this.setState({ navExpanded: false });
+    }
 
   render() {
     return (
-      <div className="head " id="head">
+      <div className="head " ref={this.setWrapperRef} id="head">
 
-      <Navbar variant ="dark" className="bw-color" fixed="top" expand="lg" onToggle={this.setNavExpanded}
+      <Navbar width={this.props.width} variant ="dark" className="bw-color" fixed="top" expand="lg" onToggle={this.setNavExpanded}
         expanded={this.state.navExpanded}>
 
       <ScrollLink

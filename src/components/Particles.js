@@ -66,10 +66,10 @@ class Canvas extends Component {
         className="static-back" params={{
   "particles": {
     "number": {
-      "value": 60,
+      "value": 160,
       "density": {
         "enable": true,
-        "value_area": 700
+        "value_area": 800
       }
     },
     "color": {
@@ -91,35 +91,35 @@ class Canvas extends Component {
       }
     },
     "opacity": {
-      "value": 0.5,
-      "random": false,
+      "value": 1,
+      "random": true,
       "anim": {
-        "enable": false,
+        "enable": true,
         "speed": 1,
-        "opacity_min": 0.1,
+        "opacity_min": 0,
         "sync": false
       }
     },
     "size": {
-      "value": 3.5,
+      "value": 3,
       "random": true,
       "anim": {
         "enable": false,
-        "speed": 50,
-        "size_min": 0.1,
+        "speed": 4,
+        "size_min": 0.6,
         "sync": false
       }
     },
     "line_linked": {
       "enable": true,
-      "distance": 100,
+      "distance": 78.91476416322726,
       "color": "#ffffff",
-      "opacity": 0.4,
-      "width": 1
+      "opacity": 0.4083101981549727,
+      "width": 0.4734885849793636
     },
     "move": {
       "enable": true,
-      "speed": 3,
+      "speed": 2,
       "direction": "none",
       "random": true,
       "straight": false,
@@ -127,8 +127,8 @@ class Canvas extends Component {
       "bounce": false,
       "attract": {
         "enable": false,
-        "rotateX": 561.194221302933,
-        "rotateY": 1200
+        "rotateX": 600,
+        "rotateY": 600
       }
     }
   },
@@ -137,7 +137,7 @@ class Canvas extends Component {
     "events": {
       "onhover": {
         "enable": false,
-        "mode": "repulse"
+        "mode": "bubble"
       },
       "onclick": {
         "enable": true,
@@ -153,14 +153,14 @@ class Canvas extends Component {
         }
       },
       "bubble": {
-        "distance": 400,
-        "size": 40,
+        "distance": 250,
+        "size": 0,
         "duration": 2,
-        "opacity": 8,
+        "opacity": 0,
         "speed": 3
       },
       "repulse": {
-        "distance": 200,
+        "distance": 400,
         "duration": 0.4
       },
       "push": {
@@ -171,7 +171,7 @@ class Canvas extends Component {
       }
     }
   },
-  "retina_detect": false
+  "retina_detect": true
 }}/>
     );
   }

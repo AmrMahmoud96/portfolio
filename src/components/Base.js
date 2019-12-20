@@ -28,7 +28,7 @@ export default class Base extends Component {
     // }
     let w = window.innerWidth-20
     let h = window.innerHeight+1
-    let pw = w>500 ? 370:270;
+    let pw = w>500 ? 320:220;
     let ph = h>600 ? 400:300;
     this.setState({width:w,height:h,picwidth:pw,picheight:ph})
   }
@@ -51,21 +51,20 @@ export default class Base extends Component {
   render() {
     return(
       <div id="base">
-      <Particles/>
-      <BaseHeader/>
+      <div className="canv-background">
+        <Particles/>
+      </div>
       <div  className="base" style={{height:this.state.height+'px'}}>
+      <BaseHeader width = {this.state.width+'px'}/>
 
-        <div className="intro-container" style={{height:(this.state.height-50)+'px'}}>
-          <div className="profile-pic-container centered">
-            <img src={headshot} className="profile-pic" alt="profile-pic" style={{width: this.state.picwidth+'px',height:this.state.picheight+'px'}}/>
+        <div className="intro-container" style={{height:(this.state.height)+'px'}}>
+          <div className="profile-pic-container">
+            <div className="profile-pic-div" >
+            <img src={headshot} alt="profile-pic" className="profile-pic-img" style={{width: this.state.picwidth+'px'}}/>
+            </div>
             <span>Bachelor of Applied Science in Engineering Science </span>
             <span>Specialization in Math, Stats and Finance</span>
             <span>Graduated May 2019</span>
-          </div>
-          <div className="intro" style={{width: (this.state.width-this.state.picwidth-50)+'px'}}>
-            <h2 className="title">Hi! I'm Amr Mahmoud.</h2>
-            <h3 className="subtitle">A programmer, entrepreneur, and everything inbetween.</h3>
-            <h4 className="summary">I'm passionate about adding value to companies by solving real world problems.</h4>
           </div>
         </div>
       </div>
@@ -75,3 +74,9 @@ export default class Base extends Component {
   }
 }
 // <LineChart width={this.state.width} height={this.state.height} />
+//
+// <div className="intro">
+//   <h2 className="title">Hi! I'm Amr Mahmoud.</h2>
+//   <h3 className="subtitle">A programmer, entrepreneur, and everything inbetween.</h3>
+//   <h4 className="summary">I'm passionate about adding value to companies by solving real world problems.</h4>
+// </div>
