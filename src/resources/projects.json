@@ -7,7 +7,7 @@
     "url":"",
     "date":"2019-11-01",
     "description":"Designed an application in order to address a major event organization problem apparent in local communities. Implemented JWT tokens to validate users and create a robust user management system through Postgres SQL. Vouched for a service-oriented approach to develop a RESTful API back-end that scales with growing numbers of users, events, and vendors. Used Adobe XD to draft wireframes/flows with design choices that focused on simplistic UI and great UX.",
-    "tags":["Go","Java","SQL","Git","Cloud Technologies","RESTful APIs","SQL"]
+    "tags":["Go","SQL","Git","Cloud Technologies","RESTful APIs","SQL"]
   },
   {
     "title":"Capstone Project: Alpha Factory",
