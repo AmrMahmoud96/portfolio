@@ -27,16 +27,26 @@ export default class ExpContent extends Component {
 
   }
   render() {
+    let splitText = this.props.data.description.split('\n').map((item, i) => {
+      return <li key={i}>{item}</li>;
+    });
     return (
       <div className="experience-content">
-        <div className="experience-company-info">
-          <img  alt="Failed to Load" className='experience-img' width= {this.props.dimensions.width} height= {this.props.dimensions.height} src ={this.props.data.image}/>
-          <span>{this.props.data.company}</span>
-        </div>
+      <div  className="experience-content-container" >
+      <div className="experience-company-info">
+        <img  alt="Failed to Load" className='experience-img' width= {this.props.dimensions.width} height= {this.props.dimensions.height} src ={this.props.data.image}/>
         <span>{this.props.data.position}</span>
-        <p>{this.props.data.location}</p>
-        <p>{this.state.start}-{this.state.end} ({this.state.dateTime} months)</p>
-        <p>{this.props.data.description}</p>
+        <span>{this.state.start}-{this.state.end} ({this.state.dateTime} months)</span>
+        <span>{this.props.data.company}</span>
+        <span>{this.props.data.location}</span>
+      </div>
+      <div className="experience-description">
+      <ul>
+      {splitText}
+      </ul>
+      </div>
+      </div>
+
       </div>
     );
   }

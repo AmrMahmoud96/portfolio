@@ -6,7 +6,7 @@
     "image":"images/IFC.png",
     "startDate":"2019-06-10",
     "endDate":"Present",
-    "description":"Proposed, developed, and implemented a machine learning solution for locator failures in automation frameworks, such as Selenium, through Python, SciKit-Learn, and Flask. Worked with actuarial and development teams to automate the testing of complex rating systems across multiple products and devices through the combination of UI and API testing frameworks. Followed best practices in documentation and software development through Agile and Scrum methodologies",
+    "description":"Proposed, developed, and implemented a machine learning solution for locator failures in automation frameworks, such as Selenium, through Python, SciKit-Learn, and Flask. \n Worked with actuarial and development teams to automate the testing of complex rating systems across multiple products and devices through the combination of UI and API testing frameworks. \n Followed best practices in documentation and software development through Agile and Scrum methodologies",
     "tags":["Java","JavaScript","Python","Flask","SQL","Selenium","Git","RESTful APIs","Machine Learning"]
   },
   {
@@ -16,7 +16,7 @@
     "image":"images/UofT.png",
     "startDate":"2018-09-01",
     "endDate":"2019-05-01",
-    "description":"Worked with a Canadian company to address their desire to build a product recommendation engine by applying Machine Learning algorithms on their millions of lines of data. Researched and completed an industry-wide literature review on ML applications in similar fields. Performed extensive data parsing, cleaning, and transformation through SQL and Pandas. Developed a simple and effective K-means clustering solution for customer segmentation using Python and Scikit Learn",
+    "description":"Worked with a Canadian company to address their desire to build a product recommendation engine by applying Machine Learning algorithms on their millions of lines of data. \n Researched and completed an industry-wide literature review on ML applications in similar fields. \n Performed extensive data parsing, cleaning, and transformation through SQL and Pandas. \n Developed a simple and effective K-means clustering solution for customer segmentation using Python and Scikit Learn",
     "tags":["Python","SQL","Machine Learning"]
   },
   {
@@ -26,7 +26,7 @@
     "image":"images/IFC.png",
     "startDate":"2017-05-01",
     "endDate":"2018-09-01",
-    "description":"Involved in designing and developing a reporting dashboard for all 800 underwriters and underwriting mangers using only self-written front-end and back-end code in combination with UI/UX best practices. Developed a Massive Testing Tool that saved manual testers over 70% of testing time through API validations. Led automated testing of several projects, web applications, and services through the use of Java and Selenium",
+    "description":"Involved in designing and developing a reporting dashboard for all 800 underwriters and underwriting mangers using only self-written front-end and back-end code in combination with UI/UX best practices. \n Developed a Massive Testing Tool that saved manual testers over 70% of testing time through API validations. \n Led automated testing of several projects, web applications, and services through the use of Java and Selenium",
     "tags":["Java","JavaScript","Selenium","Git","RESTful APIs"]
   }
 ]

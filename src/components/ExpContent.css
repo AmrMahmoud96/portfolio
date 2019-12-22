@@ -1,4 +1,21 @@
 .experience-content{
   background-color: black;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:50px;
+}
+.experience-company-info{
+  display: grid;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.experience-description{
+
+}
+.experience-content-container{
+  display: inline-block;
+  min-width: 500px;
+  max-width: 800px;
 }
