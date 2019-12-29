@@ -3,6 +3,7 @@ import './ProjectModal.css';
 import Modal from 'react-modal';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import {Button}  from 'react-bootstrap';
 
 // function importAll(r) {
 //   return r.keys().map(r);
@@ -34,6 +35,8 @@ export default class ProjectModal extends Component {
 
     const style={
       content:{
+        display:'flex',
+        flexFlow:'column',
         // height:'50%',
         // left: '2  0%',
         // position:'fixed',
@@ -56,8 +59,16 @@ export default class ProjectModal extends Component {
           isOpen={this.props.show}
           onRequestClose={this.props.close}
         >
-        <h1>{this.props.data.title}</h1>
-        <p>this is some test</p>
+        <div className="modal-header">
+          <div>
+            <h1>{this.props.data.title}</h1>
+            <h4>{this.props.date}</h4>
+          </div>
+          <div >
+            <h1 onClick={this.props.close} className='close-modal-btn'>X</h1>
+          </div>
+        </div>
+        
         <Carousel useKeyboardArrows infiniteLoop dynamicHeight>
 
         {this.props.data.images &&
@@ -72,6 +83,21 @@ export default class ProjectModal extends Component {
 
 
         </Carousel>
+
+        {this.props.data.repolink &&
+          <div>
+          <a href={this.props.data.repolink} target="_blank">Check out the repo here</a>
+          </div>
+        }
+        {this.props.data.url &&
+          <div>
+          <a href={this.props.data.url} target="_blank">See more</a>
+          </div>
+        }
+        <div style={{'textAlign':'center','margin-top':'auto'}}>
+        <Button onClick={this.props.close}  variant="primary" size='lg'>Done</Button>
+        </div>
+
         </Modal>
       </div>
     );

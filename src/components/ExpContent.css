@@ -10,6 +10,8 @@
 }
 .experience-company-info{
   display: grid;
+  justify-items:center;
+  text-align: center;
   margin-left: 20px;
   margin-bottom: 20px;
 }

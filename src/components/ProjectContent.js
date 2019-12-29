@@ -29,7 +29,7 @@ export default class ProjectContent extends Component {
     this.restoreBodyScrolling()
     this.setState({ showModal: false });
   }
-  
+
   lockBodyScrolling() {
 		// Get scroll position to be able to restore it in onCloseModal
 		this.bodyScrollPos = document.body.scrollTop
@@ -51,14 +51,15 @@ export default class ProjectContent extends Component {
   render() {
     return (
       <div className="project-content">
-      <ProjectModal height="200px" data = {this.props.data} show={this.state.showModal} close={this.handleCloseModal}/>
+      <div className='project-content-container'>
+      <ProjectModal height="200px" date={this.state.start+' '+this.state.year} data = {this.props.data} show={this.state.showModal} close={this.handleCloseModal}/>
         <div className="project-company-info">
           <img  alt="Failed to Load" onClick={this.handleOpenModal} className='project-img' width= {this.props.dimensions.width} height= {this.props.dimensions.height} src ={this.props.data.mainImage}/>
-
+          <span>{this.props.data.title}</span>
+          <p>{this.state.start+' '+this.state.year}</p>
         </div>
-        <span>{this.props.data.title}</span>
-        <p>{this.state.start+' '+this.state.year}</p>
         <p>{this.props.data.description}</p>
+      </div>
       </div>
     );
   }

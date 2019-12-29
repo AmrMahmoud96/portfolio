@@ -1,7 +1,26 @@
 .project-content{
   background-color: black;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
 }
 .project-img:hover{
 cursor: pointer;
+}
+.project-company-info{
+  display: grid;
+  justify-items:center;
+  justify-content: center;
+  text-align: center;
+}
+
+.project-img{
+  margin-bottom: 20px;
+}
+.project-content-container{
+  display: inline-block;
+  width: 90%;
+  max-width: 800px;
 }

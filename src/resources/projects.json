@@ -2,7 +2,7 @@
   {
     "title":"EventLite Co-Founder",
     "repolink":"https://github.com/AmrMahmoud96/Evaquint",
-    "mainImage":"",
+    "mainImage":"images/UofT.png",
     "images":"",
     "video":"",
     "url":"",
@@ -68,7 +68,7 @@
   {
     "title":"Mission Hacks: BlueChain",
     "repolink":"https://github.com/asidique/Project-Blue",
-    "mainImage":"",
+    "mainImage":"images/UofT.png",
     "images":"",
     "video":"",
     "url":"",
@@ -79,7 +79,7 @@
   {
     "title":"Citadel Algorithmic Trading Competition ",
     "repolink":"https://github.com/AmrMahmoud96/Citadel-Algo-Contest",
-    "mainImage":"",
+    "mainImage":"images/UofT.png",
     "images":["images/Citadel/profits.jpg"],
     "video":"",
     "url":"",
@@ -90,7 +90,7 @@
   {
     "title":"University of Toronto Engineering Finance Association Website",
     "repolink":"",
-    "mainImage":"",
+    "mainImage":"images/UofT.png",
     "images":"",
     "video":"",
     "url":"https://www.utefa.com",
