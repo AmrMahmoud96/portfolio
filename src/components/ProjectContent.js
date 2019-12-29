@@ -21,13 +21,32 @@ export default class ProjectContent extends Component {
 
   }
   handleOpenModal () {
+    this.lockBodyScrolling()
     this.setState({ showModal: true });
   }
 
   handleCloseModal () {
+    this.restoreBodyScrolling()
     this.setState({ showModal: false });
   }
   
+  lockBodyScrolling() {
+		// Get scroll position to be able to restore it in onCloseModal
+		this.bodyScrollPos = document.body.scrollTop
+			|| document.documentElement.scrollTop || 0;
+		this.appWrapper.style.position = 'fixed';
+		this.appWrapper.style.top = `-${this.bodyScrollPos}px`;
+	}
+	restoreBodyScrolling() {
+		this.appWrapper.style.removeProperty('position');
+		this.appWrapper.style.removeProperty('top');
+		document.documentElement.scrollTop = document.body.scrollTop = this.bodyScrollPos;
+	}
+	componentDidMount() {
+		this.appWrapper = document.getElementById('root');
+	}
+
+
   // <button onClick={this.handleOpenModal}>test</button>
   render() {
     return (

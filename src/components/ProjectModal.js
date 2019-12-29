@@ -10,7 +10,7 @@ import { Carousel } from 'react-responsive-carousel';
 export default class ProjectModal extends Component {
   constructor(props){
     super(props)
-    Modal.defaultStyles.overlay.backgroundColor = 'grey';
+    Modal.defaultStyles.overlay.backgroundColor = '#232121';
     // this.importAll= this.importAll.bind(this)
   }
 
@@ -36,13 +36,15 @@ export default class ProjectModal extends Component {
       content:{
         // height:'50%',
         // left: '2  0%',
-        padding: '2rem',
+        // position:'fixed',
+        // top: '80px',
+        padding: '2rem'
         // position: 'fixed',
         // right: 'auto',
         // top: '20%', // start from center
         // right:'20%',
         // transform: 'translate(-50%,-' + offsetPx + ')', // adjust top "up" based on height
-        width: '80%'
+        // width: '80%'
       }
     }
 
@@ -55,7 +57,7 @@ export default class ProjectModal extends Component {
           onRequestClose={this.props.close}
         >
         <h1>{this.props.data.title}</h1>
-        <p>this is some test2</p>
+        <p>this is some test</p>
         <Carousel useKeyboardArrows infiniteLoop dynamicHeight>
 
         {this.props.data.images &&
