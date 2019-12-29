@@ -2,7 +2,8 @@
   {
     "title":"EventLite Co-Founder",
     "repolink":"https://github.com/AmrMahmoud96/Evaquint",
-    "image":"",
+    "mainImage":"",
+    "images":"",
     "video":"",
     "url":"",
     "date":"2019-11-01",
@@ -12,7 +13,8 @@
   {
     "title":"Capstone Project: Alpha Factory",
     "repolink":"https://github.com/AmrMahmoud96/Project-Green",
-    "image":"",
+    "mainImage":"images/Capstone/Tearsheet.png",
+    "images":["images/Capstone/Tearsheet.png","images/Capstone/finalalphafactoryflow.png"],
     "video":"",
     "url":"",
     "date":"2018-09-01",
@@ -22,7 +24,8 @@
   {
     "title":"Autonomous Robot",
     "repolink":"",
-    "image":"",
+    "mainImage":"images/AER201/Robot1.png",
+    "images":["images/AER201/frame.png","images/AER201/kill-button.jpg","images/AER201/Robot1.png"],
     "video":"",
     "url":"",
     "date":"2015-09-01",
@@ -32,7 +35,8 @@
   {
     "title":"NSBE Hacks: SafeTag",
     "repolink":"https://github.com/AmrMahmoud96/SafeTag",
-    "image":"",
+    "mainImage":"images/NSBEHacks/presenting.jpeg",
+    "images":["images/NSBEHacks/presenting.jpeg","images/NSBEHacks/Prize.jpeg","images/NSBEHacks/Prize2.jpg"],
     "video":"",
     "url":"https://devpost.com/software/safetag",
     "date":"2019-01-26",
@@ -42,7 +46,8 @@
   {
     "title":"UofT Hacks: FaceLyft",
     "repolink":"https://github.com/kbop543/FaceLyft",
-    "image":"",
+    "mainImage":"images/UofTHacks/presentation-hall.jpeg",
+    "images":["images/UofTHacks/fullpresentationroom.jpg","images/UofTHacks/interac.jpeg","images/UofTHacks/me.jpg","images/UofTHacks/prep.jpg","images/UofTHacks/presentation-hall.jpeg","images/UofTHacks/presenting.jpg","images/UofTHacks/prize.jpeg","images/UofTHacks/team.jpeg"],
     "video":"",
     "url":"https://devpost.com/software/facelyft",
     "date":"2019-01-08",
@@ -52,7 +57,8 @@
   {
     "title":"Ryerson Hacks: Arcangel",
     "repolink":"https://github.com/asidique/ArcAngel",
-    "image":"",
+    "mainImage":"images/RUHacks/presenting.jpg",
+    "images":["images/RUHacks/discussion.jpg","images/RUHacks/presenting.jpg"],
     "video":"",
     "url":"",
     "date":"2018-03-30",
@@ -62,7 +68,8 @@
   {
     "title":"Mission Hacks: BlueChain",
     "repolink":"https://github.com/asidique/Project-Blue",
-    "image":"",
+    "mainImage":"",
+    "images":"",
     "video":"",
     "url":"",
     "date":"2018-03-01",
@@ -72,7 +79,8 @@
   {
     "title":"Citadel Algorithmic Trading Competition ",
     "repolink":"https://github.com/AmrMahmoud96/Citadel-Algo-Contest",
-    "image":"",
+    "mainImage":"",
+    "images":["images/Citadel/profits.jpg"],
     "video":"",
     "url":"",
     "date":"2018-11-01",
@@ -82,7 +90,8 @@
   {
     "title":"University of Toronto Engineering Finance Association Website",
     "repolink":"",
-    "image":"",
+    "mainImage":"",
+    "images":"",
     "video":"",
     "url":"https://www.utefa.com",
     "date":"2018-09-01",

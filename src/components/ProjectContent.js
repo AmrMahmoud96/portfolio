@@ -27,14 +27,14 @@ export default class ProjectContent extends Component {
   handleCloseModal () {
     this.setState({ showModal: false });
   }
-
+  
+  // <button onClick={this.handleOpenModal}>test</button>
   render() {
     return (
       <div className="project-content">
-      <button onClick={this.handleOpenModal}>test</button>
       <ProjectModal height="200px" data = {this.props.data} show={this.state.showModal} close={this.handleCloseModal}/>
         <div className="project-company-info">
-          <img  alt="Failed to Load" className='project-img' width= {this.props.dimensions.width} height= {this.props.dimensions.height} src ={this.props.data.image}/>
+          <img  alt="Failed to Load" onClick={this.handleOpenModal} className='project-img' width= {this.props.dimensions.width} height= {this.props.dimensions.height} src ={this.props.data.mainImage}/>
 
         </div>
         <span>{this.props.data.title}</span>
