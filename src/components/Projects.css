@@ -1,3 +1,9 @@
 .project{
   background-color: black;
 }
+.project-intro{
+color: white !important;
+    margin: 20px;
+    font-size: 28px;
+    text-align: center;
+}

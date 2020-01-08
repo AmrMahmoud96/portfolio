@@ -1,5 +1,9 @@
 
-
+.thumb img{
+  display:inline-block !important;
+  /* visibility: visible!important;
+  dis */
+}
 /* .modal-show{
   background-color: grey; */
 /* } */

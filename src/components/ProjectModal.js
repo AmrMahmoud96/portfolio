@@ -50,6 +50,14 @@ export default class ProjectModal extends Component {
         // width: '80%'
       }
     }
+    // let images =  [this.props.data.mainImage]
+    //
+    // if (this.props.data.images){
+    //  images =  images.concat(this.props.data.images)
+    // }
+    let images = this.props.data.images
+    let videos = this.props.data.videos
+    // images.unshift(this.props.data.mainImage)
 
     return(
       <div>
@@ -68,17 +76,24 @@ export default class ProjectModal extends Component {
             <h1 onClick={this.props.close} className='close-modal-btn'>X</h1>
           </div>
         </div>
-        
-        <Carousel useKeyboardArrows infiniteLoop dynamicHeight>
 
-        {this.props.data.images &&
-          this.props.data.images.map((i,index)=>
+        <Carousel useKeyboardArrows infiniteLoop dynamicHeight>
+        {images &&
+          images.map((i,index)=>
           <div key={index}>
                <img src = {i}/>
                <p style={{'position':'absolute','bottom':'5%'}}>{i}</p>
             </div>
 
 
+        )}
+        {videos &&
+          videos.map((v,index)=>
+          <div key={index}>
+            <img src = "images/AER201/frame.png" style={{'display':'none'}}/>
+            <iframe width="800" height="800" src={v}frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p style={{'position':'absolute','bottom':'5%'}}>{v}</p>
+            </div>
         )}
 
 

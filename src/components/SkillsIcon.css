@@ -10,6 +10,7 @@ max-width: 200px;
 .skills-icon-img{
   padding: 10px;
   margin-bottom: 5px;
+  opacity: .8;
 }
 .skills-icon-text{
       color:white!important;
@@ -17,5 +18,11 @@ font-size: 1em;
       display: block;
 }
 .selected{
-  background-color: red!important;
+  /* background-color: red!important; */
+  text-shadow: 0 0 3px yellow;
+  font-weight: 400;
+}
+.selected img{
+  opacity: 1;
+  padding:5px;
 }

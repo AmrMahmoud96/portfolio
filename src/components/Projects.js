@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Experience.css';
+import './Projects.css';
 import ProjectContent from './ProjectContent'
 
 let projects = require('../resources/projects.json')
@@ -33,6 +33,7 @@ export default class Projects extends Component {
     return (
       <div className="project">
       <h1 className="section-title" style={{backgroundColor:'black'}}>Projects</h1>
+      <h2 className="project-intro">Click on a project image to view the full gallery.</h2>
         {filteredAll? <h1  style={{padding:'50px',backgroundColor:'grey',textAlign:'center',color:'white'}}>No content available for the filters selected.</h1>:proj}
       </div>
     );
