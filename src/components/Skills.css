@@ -27,3 +27,26 @@
   color:white;
   height:80px;
 } */
+.clear-button{
+  /* display: */
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.full-filter-container{
+  /* display: flex; */
+  /* justify-content: center; */
+  text-align: center;
+}
+.centerflex{
+  display: flex;
+  justify-content: center;
+}
+.filter-container{
+  display: flex;
+  max-width: 90%;
+  padding: 20px;
+  margin: 0 auto;
+  align-content: center;
+  flex-flow: row wrap;
+  /* max-width: 1000px; */
+}

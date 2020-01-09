@@ -7,6 +7,10 @@ max-width: 200px;
 .skills-icon:hover{
   cursor: pointer;
 }
+.skills-icon:hover img{
+  opacity: 1;
+  /* padding: 5px; */
+}
 .skills-icon-img{
   padding: 10px;
   margin-bottom: 5px;
@@ -17,12 +21,12 @@ max-width: 200px;
 font-size: 1em;
       display: block;
 }
-.selected{
+.selected-filters{
   /* background-color: red!important; */
   text-shadow: 0 0 3px yellow;
   font-weight: 400;
 }
-.selected img{
+.selected-filters img{
   opacity: 1;
   padding:5px;
 }

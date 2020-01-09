@@ -20,11 +20,12 @@ class App extends Component {
       this.state = {filter: f,fullSkillList:f,filtering:false};
       this.filterContent = this.filterContent.bind(this);
       this.checkFilter = this.checkFilter.bind(this);
+      this.clearAll = this.clearAll.bind(this);
+
     }
-   filterContent(e,name,callback) {
+   filterContent(e,name) {
      e.preventDefault()
 
-     var newFilter = []
      var oldFilter=this.state.filter
      var f = this.state.filtering
      let i = oldFilter.indexOf(name)
@@ -42,15 +43,18 @@ class App extends Component {
      }else{
        oldFilter.push(name)
      }
-     newFilter=oldFilter
      this.setState(state => ({
-        filter:newFilter,
+        filter:oldFilter,
         filtering:f
      }));
-     callback()
 
    }
-
+   clearAll(){
+     this.setState(state => ({
+        filter:this.state.fullSkillList,
+        filtering:false
+     }));
+   }
    checkFilter(tags){
      if (!this.state.filtering){
        return true
@@ -68,7 +72,7 @@ class App extends Component {
     return (
       <div className="origin">
         <Element id="base"><Base/></Element>
-        <Element id="skills"><Skills  filterAction = {this.filterContent}/></Element>
+        <Element id="skills"><Skills filtering={this.state.filtering} clearAll={this.clearAll} filter={this.state.filter} checkFilter={this.checkFilter} filterAction = {this.filterContent}/></Element>
         <Element id="experience"><Experience filter={this.state.filter} checkFilter={this.checkFilter}/></Element>
         <Element id="projects"><Projects filter={this.state.filter} checkFilter={this.checkFilter}/></Element>
         <Element id="footer"><Footer/></Element>
