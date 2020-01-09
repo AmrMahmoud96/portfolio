@@ -1,0 +1,29 @@
+
+
+/* .header{
+  background-color: cyan;
+  color:white;
+  height:80px;
+} */
+
+.full-filter-container{
+  /* display: flex; */
+  /* justify-content: center; */
+  text-align: center;
+}
+.centerflex{
+  display: flex;
+  justify-content: center;
+}
+.filter-title{
+    margin: 20px;
+}
+.filter-container{
+  display: flex;
+  max-width: 90%;
+  padding: 20px;
+  margin: 0 auto;
+  align-content: center;
+  flex-flow: row wrap;
+  /* max-width: 1000px; */
+}

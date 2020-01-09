@@ -22,6 +22,32 @@
   font-size: 28px;
   text-align: center;
 }
+.filter-shortcut{
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5vw;
+    height: 5vw;
+    max-width: 70px;
+    max-height: 70px;
+    min-width: 50px;
+    min-height: 50px;
+    background-color: #d4d3cc;
+    z-index: 200;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.filter-shortcut img{
+  max-width: 70%;
+  max-height: 70%;
+}
+.unseen{
+  display: none;
+}
 /* .header{
   background-color: cyan;
   color:white;
@@ -40,6 +66,9 @@
 .centerflex{
   display: flex;
   justify-content: center;
+}
+.filter-title{
+    margin: 20px;
 }
 .filter-container{
   display: flex;
