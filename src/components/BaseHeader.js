@@ -10,7 +10,8 @@ export default class BaseHeader extends Component {
     constructor() {
       super();
       this.state = {
-        navExpanded: false
+        navExpanded: false,
+        h:0
       }
         this.closeNav = this.closeNav.bind(this);
         this.setNavExpanded = this.setNavExpanded.bind(this);
@@ -23,6 +24,10 @@ export default class BaseHeader extends Component {
      */
     componentDidMount() {
       this.closeNav()
+
+      const h = this.navElement.clientHeight;
+      this.setState({ h });
+
       window.addEventListener("resize", this.closeNav.bind(this));
       document.addEventListener('mousedown', this.handleClickOutside);
     }
@@ -49,7 +54,9 @@ export default class BaseHeader extends Component {
       this.setState({ navExpanded: !this.state.navExpanded });
     }
     closeNav() {
+
       this.setState({ navExpanded: false });
+
     }
 
   render() {
@@ -57,13 +64,15 @@ export default class BaseHeader extends Component {
       <div className="head " ref={this.setWrapperRef} id="head">
 
       <Navbar width={this.props.width} variant ="dark" className="bw-color" fixed="top" expand="lg" onToggle={this.setNavExpanded}
-        expanded={this.state.navExpanded}>
+        expanded={this.state.navExpanded}
+        ref={ (navElement) => { this.navElement = navElement } } >
 
       <ScrollLink
         to="base"
         spy={true}
         smooth={true}
         duration={500}
+offset={-this.state.h}
       >
       <Navbar.Brand onClick={this.closeNav} >Amr Mahmoud</Navbar.Brand>
       </ScrollLink>
@@ -77,6 +86,7 @@ export default class BaseHeader extends Component {
             spy={true}
             smooth={true}
             duration={500}
+offset={-this.state.h}
           >
            <Nav.Item onClick={this.closeNav}><Nav.Link >Skills</Nav.Link></Nav.Item></ScrollLink>
 
@@ -85,6 +95,7 @@ export default class BaseHeader extends Component {
              spy={true}
              smooth={true}
              duration={500}
+offset={-this.state.h}
            >
             <Nav.Item onClick={this.closeNav}><Nav.Link>Experience</Nav.Link></Nav.Item></ScrollLink>
 
@@ -93,14 +104,16 @@ export default class BaseHeader extends Component {
                spy={true}
                smooth={true}
                duration={500}
+offset={-this.state.h}
              >
               <Nav.Item onClick={this.closeNav}><Nav.Link>Projects</Nav.Link></Nav.Item></ScrollLink>
 
                <ScrollLink
-                 to="footer"
+                 to="footer-div"
                  spy={true}
                  smooth={true}
                  duration={500}
+offset={-this.state.h}
                >
                 <Nav.Item onClick={this.closeNav}><Nav.Link>Contact</Nav.Link></Nav.Item></ScrollLink>
           </Nav>

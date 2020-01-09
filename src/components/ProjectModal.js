@@ -68,13 +68,12 @@ export default class ProjectModal extends Component {
           onRequestClose={this.props.close}
         >
         <div className="modal-header">
-          <div>
-            <h1>{this.props.data.title}</h1>
-            <h4>{this.props.date}</h4>
-          </div>
-          <div >
-            <h1 onClick={this.props.close} className='close-modal-btn'>X</h1>
-          </div>
+        <button type="button" class="close" onClick={this.props.close} aria-label="Close">
+          <span aria-hidden="true">X</span>
+        </button>
+        <h1 class="modal-title">{this.props.data.title}</h1>
+        <h4 class="modal-title">{this.props.date}</h4>
+
         </div>
 
         <Carousel useKeyboardArrows infiniteLoop dynamicHeight>
@@ -91,7 +90,7 @@ export default class ProjectModal extends Component {
           videos.map((v,index)=>
           <div key={index}>
             <img src = "images/play.png" style={{'display':'none'}}/>
-            <iframe width="800" height="800" src={v}frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="800" height="800" src={v}frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
             <p style={{'position':'absolute','bottom':'5%'}}>{v}</p>
             </div>
         )}

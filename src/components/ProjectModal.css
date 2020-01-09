@@ -4,28 +4,15 @@
   /* visibility: visible!important;
   dis */
 }
-/* .modal-show{
-  background-color: grey; */
-/* } */
-/* .header{
-  background-color: cyan;
-  color:white;
-  height:80px;
-} */
-.close-modal-btn{
-  /* position: absolute;
-  top:2em;
-  right:2em;
-  padding: .5em; */
-  margin-left: auto;
-  width: 50px;
-  height: 50px;
-  text-align: center;
 
+.close{
+  font-size: 2em;
 }
-.close-modal-btn:hover{
-  cursor: pointer;
-  color: #dc3545;
+.close:hover{
+  color:#dc3545 !important;
+}
+.modal-header{
+  display: block!important;
 }
 
 .modal-header{

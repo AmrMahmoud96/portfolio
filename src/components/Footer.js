@@ -31,9 +31,9 @@ export default class Footer extends Component {
           <h1 className="footer-title">Thanks for coming!</h1>
           <h2 className="footer-subtitle">Be sure to stay connected or contact me below.</h2>
           <Row className="footer-icon-holder justify-content-md-center">
-            <Col><Icon data = {email} dimensions={d}/></Col>
-            <Col><Icon data = {github}  dimensions={d}/></Col>
-            <Col><Icon data = {linkedin}  dimensions={d}/></Col>
+            <Col sm><Icon data = {email} dimensions={d}/></Col>
+            <Col sm><Icon data = {github}  dimensions={d}/></Col>
+            <Col sm><Icon data = {linkedin}  dimensions={d}/></Col>
           </Row>
       </div>
     );

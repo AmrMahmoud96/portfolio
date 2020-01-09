@@ -29,12 +29,10 @@ export default class FilterModal extends Component {
           onRequestClose={this.props.close}
         >
         <div className="modal-header">
-          <div>
-            <h3>Filter Menu</h3>
-          </div>
-          <div >
-            <h1 onClick={this.props.close} className='close-modal-btn'>X</h1>
-          </div>
+        <button type="button" class="close" onClick={this.props.close} aria-label="Close">
+          <span aria-hidden="true">X</span>
+        </button>
+        <h3 class="modal-title">Filter Menu</h3>
         </div>
 
           <div className="full-filter-container">
@@ -46,8 +44,8 @@ export default class FilterModal extends Component {
             </div>
           </div>
 
-        <div style={{'textAlign':'center','margin-top':'auto'}}>
-        <h4  style={{'margin-bottom':'5px'}}>Click icons to remove filters</h4>
+        <div style={{'textAlign':'center','marginTop':'auto'}}>
+        <h4  style={{'marginBottom':'5px'}}>Click icons to remove filters</h4>
         <p>or</p>
         <Button onClick={this.props.clearAll}  variant="danger" size='lg'>Clear All</Button>
 

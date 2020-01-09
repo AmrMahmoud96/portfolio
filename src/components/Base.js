@@ -62,7 +62,7 @@ export default class Base extends Component {
             <div className="profile-pic-div" >
             <img src={headshot} alt="profile-pic" className="profile-pic-img" style={{width: this.state.picwidth+'px'}}/>
             </div>
-            <span style={{'font-size':'31px'}}>Amr Mahmoud</span>
+            <span style={{'fontSize':'31px'}}>Amr Mahmoud</span>
             <span>Bachelor of Applied Science in Engineering Science </span>
             <span>Specialization in Math, Stats and Finance</span>
             <span>Graduated May 2019</span>

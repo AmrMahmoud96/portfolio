@@ -5,7 +5,15 @@
   color:white;
   height:80px;
 } */
-
+.modal-header{
+  display: block!important;
+}
+.close{
+  font-size: 2em;
+}
+.close:hover{
+  color:#dc3545 !important;
+}
 .full-filter-container{
   /* display: flex; */
   /* justify-content: center; */
