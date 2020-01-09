@@ -23,4 +23,16 @@ cursor: pointer;
   display: inline-block;
   width: 90%;
   max-width: 800px;
+
+}
+.project-tag-caption{
+  margin: auto 0;
+}
+.project-tags{
+    display: flex;
+    max-width: 90%;
+    padding: 20px;
+    margin: 0 auto;
+    align-content: center;
+    flex-flow: row wrap;
 }

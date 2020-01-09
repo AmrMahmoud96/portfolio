@@ -87,7 +87,14 @@ export default class ProjectModal extends Component {
 
 
         )}
-      
+        {videos &&
+          videos.map((v,index)=>
+          <div key={index}>
+            <img src = "images/play.png" style={{'display':'none'}}/>
+            <iframe width="800" height="800" src={v}frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p style={{'position':'absolute','bottom':'5%'}}>{v}</p>
+            </div>
+        )}
 
 
         </Carousel>

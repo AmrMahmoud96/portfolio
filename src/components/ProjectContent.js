@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './ProjectContent.css';
 import ProjectModal from './ProjectModal'
+import TagIcon from './TagIcon'
 
+const skills = require('../resources/skills.json')
 
 export default class ProjectContent extends Component {
   constructor(props) {
@@ -18,6 +20,7 @@ export default class ProjectContent extends Component {
 
     this.handleOpenModal = this.handleOpenModal.bind(this);
     this.handleCloseModal = this.handleCloseModal.bind(this);
+    this.matchSkill=this.matchSkill.bind(this);
 
   }
   handleOpenModal () {
@@ -46,9 +49,19 @@ export default class ProjectContent extends Component {
 		this.appWrapper = document.getElementById('root');
 	}
 
+      matchSkill(s){
+        var choices = skills.filter(function(skill){
+          return skill.text == s;
+        })
+        if (choices.length == 1){return choices[0].icon}
+        else{return null}
+      }
 
   // <button onClick={this.handleOpenModal}>test</button>
   render() {
+    const tags = this.props.data.tags.map((skill, index) => {
+        return <TagIcon key={index} title={skill} filtericon={false}  image={this.matchSkill(skill)}/>
+      });
     return (
       <div className="project-content">
       <div className='project-content-container'>
@@ -58,6 +71,11 @@ export default class ProjectContent extends Component {
           <span>{this.props.data.title}</span>
           <p>{this.state.start+' '+this.state.year}</p>
         </div>
+        {this.props.data.tags.length> 0 &&
+          <div className="project-tags">
+          <p className="project-tag-caption">Made with:</p>{tags}</div>
+        }
+
         <p>{this.props.data.description}</p>
       </div>
       </div>

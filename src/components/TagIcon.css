@@ -12,21 +12,26 @@
   background-color: white;
   border: 1px solid silver; */
   display: block;
-  width: 70px;
-  height: 70px;
-  background: #E6E7ED;
+  width:30px;
+  height: 30px;
+  /* background: #E6E7ED; */
   justify-items:center;
   text-align: center;
   align-content: center;
   align-items: center;
-  border-radius: 50%;
+  /* border-radius: 50%;
   -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  white-space: nowrap;
+  -webkit-border-radius: 50%; */
+  /* white-space: nowrap; */
 /* padding: 20px; */
 }
 .filter-icon:hover{
   cursor: pointer;
+
+}
+.filter-icon{
+  width:70px;
+  height: 70px;
 }
 .tag-container{
   margin:10px;
@@ -37,7 +42,8 @@ display:inline-block;
     vertical-align: middle;
 }
 .tag-img{
-  max-width:60%;
-  max-height:60%;
+  max-width:100%;
+  max-height:100%;
+  padding: 2px;
   vertical-align: middle;
 }
