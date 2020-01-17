@@ -11,12 +11,12 @@
   },
   {
     "company":"University of Toronto",
-    "position":"Thesis Student: Application of ML Clustering Algorithms for Customer Segmentation and Purchase Prediction",
+    "position":"Thesis Student",
     "location":"Toronto, Ontario",
     "image":"images/UofT.png",
     "startDate":"2018-09-01",
     "endDate":"2019-05-01",
-    "description":"Worked with a Canadian company to address their desire to build a product recommendation engine by applying Machine Learning algorithms on their millions of lines of data. \n Researched and completed an industry-wide literature review on ML applications in similar fields. \n Performed extensive data parsing, cleaning, and transformation through SQL and Pandas. \n Developed a simple and effective K-means clustering solution for customer segmentation using Python and Scikit Learn",
+    "description":"Thesis: Application of ML Clustering Algorithms for Customer Segmentation and Purchase Prediction. \n Worked with a Canadian company to address their desire to build a product recommendation engine by applying Machine Learning algorithms on their millions of lines of data. \n Researched and completed an industry-wide literature review on ML applications in similar fields. \n Performed extensive data parsing, cleaning, and transformation through SQL and Pandas. \n Developed a simple and effective K-means clustering solution for customer segmentation using Python and Scikit Learn",
     "tags":["Python","SQL","Machine Learning"]
   },
   {
