@@ -10,7 +10,7 @@ export default class ExpContent extends Component {
     var e = props.data.endDate
     if ( props.data.endDate != "Present"){
       d2 = new Date(s[0], s[1] - 1, s[2])
-      e = d2.toLocaleString('default', { month: 'short' })
+      e = d2.toLocaleString('default', { month: 'short',year:'numeric'})
     }
     s = props.data.startDate.split("-")
     var d1 = new Date(s[0], s[1] - 1, s[2])
@@ -21,7 +21,7 @@ export default class ExpContent extends Component {
 
     this.state = {
       dateTime: m,
-      start:d1.toLocaleString('default', { month: 'short' }),
+      start:d1.toLocaleString('default', { month: 'short',year:'numeric' }),
       end:e
     }
 
@@ -36,7 +36,7 @@ export default class ExpContent extends Component {
       <div className="experience-company-info">
         <img  alt="Failed to Load" className='experience-img' width= {this.props.dimensions.width} height= {this.props.dimensions.height} src ={this.props.data.image}/>
         <span>{this.props.data.position}</span>
-        <span>{this.state.start}-{this.state.end} ({this.state.dateTime} months)</span>
+        <span>{this.state.start} - {this.state.end} ({this.state.dateTime} months)</span>
         <span>{this.props.data.company}</span>
         <span>{this.props.data.location}</span>
       </div>
