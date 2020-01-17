@@ -7,3 +7,9 @@ color: white !important;
     font-size: 28px;
     text-align: center;
 }
+.proj-section-title{
+  background-image: linear-gradient(white, black);
+  min-height: 100px;
+  /* font-weight: bold; */
+  /* color:white; */
+}

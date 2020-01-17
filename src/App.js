@@ -72,9 +72,9 @@ class App extends Component {
     return (
       <div className="origin">
         <Element id="base"><Base/></Element>
-        <Element id="skills"><Skills filtering={this.state.filtering} clearAll={this.clearAll} filter={this.state.filter} checkFilter={this.checkFilter} filterAction = {this.filterContent}/></Element>
+        <Element><Skills filtering={this.state.filtering} clearAll={this.clearAll} filter={this.state.filter} checkFilter={this.checkFilter} filterAction = {this.filterContent}/></Element>
         <Element id="experience"><Experience filter={this.state.filter} checkFilter={this.checkFilter}/></Element>
-        <Element id="projects"><Projects filter={this.state.filter} checkFilter={this.checkFilter}/></Element>
+        <Element ><Projects filter={this.state.filter} checkFilter={this.checkFilter}/></Element>
         <Element id="footer-div"><Footer/></Element>
       </div>
     );

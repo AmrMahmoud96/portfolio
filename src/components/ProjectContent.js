@@ -13,6 +13,7 @@ export default class ProjectContent extends Component {
 
     this.state = {
       start:d1.toLocaleString('default', { month: 'short' }),
+      startLong:d1.toLocaleString('default', { month: 'long' }),
       year:s[0],
       showModal: false
     }
@@ -63,20 +64,27 @@ export default class ProjectContent extends Component {
         return <TagIcon key={index} title={skill} filtericon={false}  image={this.matchSkill(skill)}/>
       });
     return (
+      <div className="proj-border-container">
+      <h1 className="project-main-tag-caption"><span>{this.props.data.title} ({this.state.start+' '+this.state.year})</span></h1>
+
       <div className="project-content">
       <div className='project-content-container'>
       <ProjectModal height="200px" date={this.state.start+' '+this.state.year} data = {this.props.data} show={this.state.showModal} close={this.handleCloseModal}/>
         <div className="project-company-info">
-          <img  alt="Failed to Load" onClick={this.handleOpenModal} className='project-img' width= {this.props.dimensions.width} height= {this.props.dimensions.height} src ={this.props.data.mainImage}/>
-          <span>{this.props.data.title}</span>
-          <p>{this.state.start+' '+this.state.year}</p>
+          <img  alt="Failed to Load" onClick={this.handleOpenModal} className='project-img'  src ={this.props.data.mainImage}/>
+
         </div>
-        {this.props.data.tags.length> 0 &&
-          <div className="project-tags">
-          <p className="project-tag-caption">Made with:</p>{tags}</div>
-        }
 
         <p>{this.props.data.description}</p>
+
+        {this.props.data.tags.length> 0 &&
+          <div className="border-container">
+          <h1 className="project-tag-caption"><span >Made With</span></h1>
+          <div className="project-tags">
+          {tags}</div>
+          </div>
+        }
+      </div>
       </div>
       </div>
     );

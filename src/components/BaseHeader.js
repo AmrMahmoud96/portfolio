@@ -111,7 +111,7 @@ offset={-this.state.h}
                <ScrollLink
                  to="footer-div"
                  spy={true}
-                 smooth={true}
+                 smooth={'easeInOutQuad'}
                  duration={500}
 offset={-this.state.h}
                >

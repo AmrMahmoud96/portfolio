@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50px;
+  margin: 1vh;
 }
 .project-img:hover{
 cursor: pointer;
@@ -18,19 +18,58 @@ cursor: pointer;
 
 .project-img{
   margin-bottom: 20px;
+  max-width: 200px;
+  max-height: 200px;
 }
 .project-content-container{
   display: inline-block;
   width: 90%;
   max-width: 800px;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
 
 }
+.border-container{
+  border: 2px ridge gold;
+  border-radius: 10px;
+  margin-top:20px;
+  margin: 0 auto;
+  width: fit-content;
+}
+.proj-border-container{
+  border-top: 2px ridge white;
+  /* margin: 0 auto;
+   */
+   margin:30px;
+  color: white!important;
+}
 .project-tag-caption{
-  margin: auto 0;
+    text-align: center;
+    margin-top: -10px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 22px;
+}
+.project-main-tag-caption{
+      text-align: center;
+      margin-top: -12px;
+      height: 24px;
+      line-height: 24px;
+      font-size: 24px;
+}
+
+.project-main-tag-caption span{
+    padding: 0 10px;
+    background-color: black !important;
+}
+.project-tag-caption span{
+    padding: 0 10px;
+    background-color: black !important;
 }
 .project-tags{
     display: flex;
-    max-width: 90%;
+    /* max-width: 90%; */
+    width: fit-content;
     padding: 20px;
     margin: 0 auto;
     align-content: center;

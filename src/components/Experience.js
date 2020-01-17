@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Experience.css';
 import ExpContent from './ExpContent'
+import Particles from "./Particles";
 
 let experiences = require('../resources/experience.json')
 var filteredAll=true
@@ -31,9 +32,21 @@ export default class Experience extends Component {
     });
 
     return (
-      <div className="experience">
-      <h1 className="section-title" style={{backgroundColor:'black'}}>Experience</h1>
+      <div className="experience" ref="experience">
+
+      <div id ="snow" className="canv-background">
+        <Particles stars={false}/>
+      </div>
+      <h1 className="exp-section-title" style={{backgroundColor:'black'}}>Experience</h1>
         {filteredAll? <h1  style={{padding:'50px',backgroundColor:'grey',textAlign:'center',color:'white'}}>No content available for the filters selected.</h1>:exp}
+
+        <div className="project-transition">
+        <img src='images/trees.png'/>
+        </div>
+        <div id="projects" className="exp-end">
+
+        <h1 >Projects</h1>
+        </div>
       </div>
     );
   }

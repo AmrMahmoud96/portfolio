@@ -2,8 +2,11 @@
   {
     "title":"EventLite Co-Founder",
     "repolink":"https://github.com/AmrMahmoud96/Evaquint",
-    "mainImage":"images/Evaquint/main.png",
-    "images":["images/Evaquint/main.png"],
+    "mainImage":"images/Evaquint/main.jpg",
+    "images":[{
+	     "path":"images/Evaquint/wireframes.png",
+	      "caption":"test"
+        }],
     "videos":[],
     "url":"",
     "date":"2019-11-01",
@@ -11,10 +14,19 @@
     "tags":["Go","SQL","Git","Cloud Technologies","RESTful APIs"]
   },
   {
-    "title":"Capstone Project: Alpha Factory",
+    "title":"Capstone: Alpha Factory",
     "repolink":"https://github.com/AmrMahmoud96/Project-Green",
     "mainImage":"images/Capstone/main.png",
-    "images":["images/Capstone/Tearsheet.png","images/Capstone/finalflow.png"],
+    "images":[{
+       "path":"images/Capstone/mainpage.png",
+        "caption":"test"
+        },{
+	     "path":"images/Capstone/finalflow.png",
+	      "caption":"test"
+        },{
+        	     "path":"images/Capstone/Tearsheet.png",
+        	      "caption":"test"
+                }],
     "videos":[],
     "url":"",
     "date":"2018-09-01",
@@ -24,8 +36,17 @@
   {
     "title":"Autonomous Robot",
     "repolink":"",
-    "mainImage":"images/AER201/Robot1.png",
-    "images":["images/AER201/frame.png","images/AER201/kill-button.jpg","images/AER201/Robot1.png"],
+    "mainImage":"images/AER201/main.png",
+    "images":[{
+	     "path":"images/AER201/frame.png",
+	      "caption":"test"
+        },{
+    	     "path":"images/AER201/kill-button.jpg",
+    	      "caption":"test"
+            },{
+        	     "path":"images/AER201/Robot1.png",
+        	      "caption":"test"
+                }],
     "videos":["https://www.youtube.com/embed/BAfB_pdHK6U"],
     "url":"",
     "date":"2015-09-01",
@@ -35,8 +56,17 @@
   {
     "title":"NSBE Hacks: SafeTag",
     "repolink":"https://github.com/AmrMahmoud96/SafeTag",
-    "mainImage":"images/NSBEHacks/presenting.jpeg",
-    "images":["images/NSBEHacks/presenting.jpeg","images/NSBEHacks/Prize.jpeg","images/NSBEHacks/Prize2.jpg"],
+    "mainImage":"images/NSBEHacks/main.png",
+    "images":[{
+	     "path":"images/NSBEHacks/presenting.jpeg",
+	      "caption":"test"
+        },{
+    	     "path":"images/NSBEHacks/Prize.jpeg",
+    	      "caption":"test"
+            },{
+        	     "path":"images/NSBEHacks/Prize2.jpg",
+        	      "caption":"test"
+                }],
     "videos":["https://www.youtube.com/embed/k9_700-KTkY"],
     "url":"https://devpost.com/software/safetag",
     "date":"2019-01-26",
@@ -47,7 +77,31 @@
     "title":"UofT Hacks: FaceLyft",
     "repolink":"https://github.com/kbop543/FaceLyft",
     "mainImage":"images/UofTHacks/main.png",
-    "images":["images/UofTHacks/fullpresentationroom.jpg","images/UofTHacks/interac.jpeg","images/UofTHacks/me.jpg","images/UofTHacks/prep.jpg","images/UofTHacks/presentation-hall.jpeg","images/UofTHacks/presenting.jpg","images/UofTHacks/prize.jpeg","images/UofTHacks/team.jpeg"],
+    "images":[{
+       "path":"images/UofTHacks/fullpresentationroom.jpg",
+        "caption":"test"
+        },{
+           "path":"images/UofTHacks/interac.jpeg",
+            "caption":"test"
+            },{
+        	     "path":"images/UofTHacks/me.jpg",
+        	      "caption":"test"
+                },{
+            	     "path":"images/UofTHacks/prep.jpg",
+            	      "caption":"test"
+                    },{
+                	     "path":"images/UofTHacks/presentation-hall.jpeg",
+                	      "caption":"test"
+                        },{
+                    	     "path":"images/UofTHacks/presenting.jpg",
+                    	      "caption":"test"
+                            },{
+                        	     "path":"images/UofTHacks/prize.jpeg",
+                        	      "caption":"test"
+                                },{
+                            	     "path":"images/UofTHacks/team.jpeg",
+                            	      "caption":"test"
+                                    }],
     "videos":["https://www.youtube.com/embed/nXpSHgAcLX0"],
     "url":"https://devpost.com/software/facelyft",
     "date":"2019-01-08",
@@ -58,7 +112,13 @@
     "title":"Ryerson Hacks: Arcangel",
     "repolink":"https://github.com/asidique/ArcAngel",
     "mainImage":"images/RUHacks/main.png",
-    "images":["images/RUHacks/discussion.jpg","images/RUHacks/presenting.jpg"],
+    "images":[{
+       "path":"images/RUHacks/discussion.jpg",
+        "caption":"test"
+        },{
+           "path":"images/RUHacks/presenting.jpg",
+            "caption":"test"
+            }],
     "videos":["https://www.youtube.com/embed/-rNsIEmY0nU"],
     "url":"",
     "date":"2018-03-30",
@@ -80,7 +140,7 @@
     "title":"Citadel Algorithmic Trading Competition ",
     "repolink":"https://github.com/AmrMahmoud96/Citadel-Algo-Contest",
     "mainImage":"images/Citadel/main.png",
-    "images":["images/Citadel/profits.jpg"],
+    "images":[],
     "videos":[],
     "url":"",
     "date":"2018-11-01",
@@ -88,10 +148,13 @@
     "tags":["Git","Python","RESTful APIs"]
   },
   {
-    "title":"University of Toronto Engineering Finance Association Website",
+    "title":"UofT Engineering Finance Association Website",
     "repolink":"",
     "mainImage":"images/UTEFA/main.png",
-    "images":["images/UTEFA/homepage.png"],
+    "images":[{
+       "path":"images/UTEFA/homepage.png",
+        "caption":"test"
+        }],
     "videos":[],
     "url":"https://www.utefa.com",
     "date":"2018-09-01",

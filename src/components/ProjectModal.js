@@ -76,21 +76,21 @@ export default class ProjectModal extends Component {
 
         </div>
 
-        <Carousel useKeyboardArrows infiniteLoop dynamicHeight>
+        <Carousel swipeable useKeyboardArrows infiniteLoop dynamicHeight >
         {images &&
           images.map((i,index)=>
-          <div key={index}>
-               <img src = {i}/>
-               <p style={{'position':'absolute','bottom':'5%'}}>{i}</p>
+          <div key={index} className="carousel-img-div" >
+               <img  src = {i.path} />
+               <p style={{'position':'absolute','bottom':'5%'}}>{i.caption}</p>
             </div>
 
 
         )}
         {videos &&
           videos.map((v,index)=>
-          <div key={index}>
+          <div key={index} className="iframe-div">
             <img src = "images/play.png" style={{'display':'none'}}/>
-            <iframe width="800" height="800" src={v}frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
+            <iframe src={v}frameborder="0" height="315" width="560" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
             <p style={{'position':'absolute','bottom':'5%'}}>{v}</p>
             </div>
         )}

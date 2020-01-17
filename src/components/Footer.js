@@ -28,6 +28,7 @@ export default class Footer extends Component {
     }
     return (
       <div className="footer" >
+          <hr className="section-break"/>
           <h1 className="footer-title">Thanks for coming!</h1>
           <h2 className="footer-subtitle">Be sure to stay connected or contact me below.</h2>
           <Row className="footer-icon-holder justify-content-md-center">

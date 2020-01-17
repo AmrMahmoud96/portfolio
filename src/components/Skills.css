@@ -1,12 +1,17 @@
 
 .skills{
   background-color: black;
-   background: url(../resources/connectwork.png);
   color:white;
   /* display: flex; */
   /* align-content: center; */
 }
+.skill-section-title{
+  background-color: ghostwhite!important;
+  text-align: center;
+  color: black!important;
+}
 .skills-container{
+  /* background: url(../resources/connectwork.png); */
   /* display: inline-block; */
   display: flex;
   flex-flow: row wrap;
@@ -27,8 +32,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 5vw;
-    height: 5vw;
+  width: 70px;
+    height: 70px;
     max-width: 70px;
     max-height: 70px;
     min-width: 50px;
@@ -78,4 +83,67 @@
   align-content: center;
   flex-flow: row wrap;
   /* max-width: 1000px; */
+}
+.skill-background{
+  background-color: ghostwhite!important;
+  color: black!important;
+}
+#clouds path {
+	fill: ghostwhite;
+	stroke: ghostwhite;
+}
+.clouds {
+  background: black;
+  p {
+    color:#333;
+  }
+  a {
+    color:darken(black, 10%);
+    text-decoration:none;
+    &:hover{
+      color:darken(black, 40%);
+    }
+  }
+}
+
+/* Media Queries for the layout */
+@media screen and (max-width: 68em) {
+	section {
+		font-size: 80%;
+	}
+}
+
+@media screen and (max-width: 54em) {
+	.column {
+		display: block;
+		width: 100% !important;
+	}
+
+	.text:first-child,
+	.text:nth-child(2) {
+		text-align: center;
+	}
+
+	.icon {
+		margin: 0 auto;
+	}
+
+	.col-2 .column:first-child .icon {
+		margin: 0 auto 50px;
+	}
+
+	.col-2 .column:nth-child(2) .icon {
+		margin: 50px auto 0;
+	}
+}
+
+
+#clouds-flipped path {
+  fill: ghostwhite;
+  stroke: ghostwhite;
+  /* z-index: 1000; */
+  transform: rotate(180deg) translate(-100px, -100px);
+}
+#clouds-flipped{
+  background: black!important;
 }
