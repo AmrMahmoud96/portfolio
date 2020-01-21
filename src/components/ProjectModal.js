@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './ProjectModal.css';
 import Modal from 'react-modal';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import {Button}  from 'react-bootstrap';
+import './ProjectModal.css';
 
 // function importAll(r) {
 //   return r.keys().map(r);

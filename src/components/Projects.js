@@ -10,13 +10,13 @@ export default class Projects extends Component {
     super(props);
     projects=projects.sort(this.compare)
     this.state = {
-      width:window.innerWidth
+      windowWidth:window.innerWidth
     }
   }
 
  updateDimensions() {
    let w = window.innerWidth
-   this.setState({width:w})
+   this.setState({windowWidth:w})
 
  }
 
@@ -56,7 +56,7 @@ export default class Projects extends Component {
     return (
       <div className="project-section">
       <h1 className="proj-section-title" style={{backgroundColor:'black'}}></h1>
-          <h2 className={this.state.width <= 760 ? "unseen":"project-intro"}>Click on a project image to view the full gallery.</h2>
+          <h2 className={this.state.windowWidth >= 760 ? "unseen":"project-intro"}>Click on a project image to view the full gallery.</h2>
 
         {filteredAll? <h1  style={{padding:'50px',backgroundColor:'grey',textAlign:'center',color:'white'}}>No content available for the filters selected.</h1>:proj}
       </div>

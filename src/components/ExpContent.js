@@ -22,30 +22,74 @@ export default class ExpContent extends Component {
     this.state = {
       dateTime: m,
       start:d1.toLocaleString('default', { month: 'short',year:'numeric' }),
-      end:e
+      end:e,
+      windowWidth:window.innerWidth
     }
+  }
 
+  updateDimensions() {
+   let w = window.innerWidth
+   this.setState({windowWidth:w})
+   this.props.resize()
+  }
+
+  /**
+  * Add event listener
+  */
+  componentDidMount() {
+   this.updateDimensions();
+   window.addEventListener("resize", this.updateDimensions.bind(this));
+  }
+
+  /**
+  * Remove event listener
+  */
+  componentWillUnmount() {
+   window.removeEventListener("resize", this.updateDimensions.bind(this));
   }
   render() {
     let splitText = this.props.data.description.split('\n').map((item, i) => {
       return <li key={i}>{item}</li>;
     });
     return (
-      <div className="experience-content">
-      <div  className="experience-content-container" >
-      <div className="experience-company-info">
-        <img  alt="Failed to Load" className='experience-img' width= {this.props.dimensions.width} height='auto' src ={this.props.data.image}/>
-        <span>{this.props.data.position}</span>
-        <span>{this.state.start} - {this.state.end} ({this.state.dateTime} months)</span>
-        <span>{this.props.data.company}</span>
-        <span>{this.props.data.location}</span>
-      </div>
-      <div className="experience-description">
-      <ul>
-      {splitText}
-      </ul>
-      </div>
-      </div>
+      <div>
+      {this.state.windowWidth<760 &&
+<div className="experience-content">
+        <div  className="experience-content-container" >
+        <div className="experience-company-info">
+          <img  alt="Failed to Load" className='experience-img' width= {this.props.dimensions.width} height='auto' src ={this.props.data.image}/>
+          <span>{this.props.data.position}</span>
+          <span>{this.state.start} - {this.state.end} ({this.state.dateTime} months)</span>
+          <span>{this.props.data.company}</span>
+          <span>{this.props.data.location}</span>
+        </div>
+        <div className="experience-description">
+        <ul>
+        {splitText}
+        </ul>
+        </div>
+        </div>
+              </div>
+      }
+      {this.state.windowWidth>=760  &&
+        <div className="experience-content">
+        <div className="experience-company-info">
+          <img  alt="Failed to Load" className='experience-img' width= {this.props.dimensions.width} height='auto' src ={this.props.data.image}/>
+          <span>{this.props.data.position}</span>
+          <span>{this.state.start} - {this.state.end} ({this.state.dateTime} months)</span>
+          <span>{this.props.data.company}</span>
+          <span>{this.props.data.location}</span>
+        </div>
+        <div  className="experience-content-container" >
+
+        <div className="experience-description">
+        <ul>
+        {splitText}
+        </ul>
+        </div>
+        </div>
+        </div>
+      }
 
       </div>
     );

@@ -2,7 +2,7 @@
   {
     "title":"EventLite Co-Founder",
     "repolink":"https://github.com/AmrMahmoud96/Evaquint",
-    "mainImage":"images/Evaquint/main.jpg",
+    "mainImage":"images/Evaquint/main.png",
     "images":[{
 	     "path":"images/Evaquint/wireframes.png",
 	      "caption":"Initial wireframes chosen for the mobile app. "
@@ -57,6 +57,7 @@
     "title":"NSBE Hacks: SafeTag",
     "repolink":"https://github.com/AmrMahmoud96/SafeTag",
     "mainImage":"images/NSBEHacks/main.png",
+    "acheivement":"1st Place",
     "images":[{
 	     "path":"images/NSBEHacks/presenting.jpeg",
 	      "caption":"test"
@@ -77,6 +78,7 @@
     "title":"UofT Hacks: FaceLyft",
     "repolink":"https://github.com/kbop543/FaceLyft",
     "mainImage":"images/UofTHacks/main.png",
+    "acheivement":"2nd Place",
     "images":[{
        "path":"images/UofTHacks/fullpresentationroom.jpg",
         "caption":"test"
@@ -105,7 +107,7 @@
     "videos":["https://www.youtube.com/embed/nXpSHgAcLX0"],
     "url":"https://devpost.com/software/facelyft",
     "date":"2019-01-08",
-    "description":"2nd place winner of a 36 hour hackathon hosted by UofT and MLH with over 300 participants. FaceLyft is a web app for carpool drivers that provides drivers and riders the tools to make the carpooling experience (and general money transfer experience) seamless. Features facial recognition payment system through IBM Watson AI and interact e-transfer, smart car door lock/unlock via the web app, transaction history, payment status, and vehicle information tracking. Other prizes: Best Hack using Interac e-Transfer Open API, Top 10 Prize (Entrepreneurship Hatchery).",
+    "description":"Second place winner of a 36 hour hackathon hosted by UofT and MLH with over 300 participants. FaceLyft is a web app for carpool drivers that provides drivers and riders the tools to make the carpooling experience (and general money transfer experience) seamless. Features facial recognition payment system through IBM Watson AI and interact e-transfer, smart car door lock/unlock via the web app, transaction history, payment status, and vehicle information tracking. Other prizes: Best Hack using Interac e-Transfer Open API, Top 10 Prize (Entrepreneurship Hatchery).",
     "tags":["Git","React","RESTful APIs","Machine Learning","NoSQL","nodeJS"]
   },
   {
@@ -129,6 +131,7 @@
     "title":"Mission Hack: BlueChain",
     "repolink":"https://github.com/asidique/Project-Blue",
     "mainImage":"images/MissionHack/main.png",
+    "acheivement":"Top Five",
     "images":[],
     "videos":["https://www.youtube.com/embed/8Y1DPuxwB04"],
     "url":"",
@@ -140,6 +143,7 @@
     "title":"Citadel Algorithmic Trading Competition ",
     "repolink":"https://github.com/AmrMahmoud96/Citadel-Algo-Contest",
     "mainImage":"images/Citadel/main.png",
+    "acheivement":"2nd Place",
     "images":[],
     "videos":[],
     "url":"",

@@ -11,12 +11,12 @@ export default class Experience extends Component {
     super(props);
     experiences=experiences.sort(this.compare)
     this.child = React.createRef();
-
+    this.resize = this.resize.bind(this);
   }
+  resize(){
+    this.child.current.updateDimensions();
+  };
 
-  componentDidUpdate(){
-    this.child.current.updateDimensions()
-  }
   compare(a, b) {
     if (a.startDate < b.startDate ) return 1;
     if (b.startDate  < a.startDate ) return -1;
@@ -33,18 +33,21 @@ export default class Experience extends Component {
       if (notFiltered){
         filteredAll=false
       }
-      return notFiltered? <ExpContent key={index}  data={exp} dimensions={d}/>: null
+      return notFiltered? <ExpContent key={index}  resize={this.resize}data={exp} dimensions={d}/>: null
     });
     return (
       <div className="experience" ref="experience">
+
       <div id ="snow" className="canv-background">
+      {!filteredAll &&
         <Particles stars={false} ref={this.child} resize={this.props.resize}/>
+       }
       </div>
       <h1 className="exp-section-title" style={{backgroundColor:'black'}}>Experience</h1>
         {filteredAll? <h1  style={{padding:'50px',backgroundColor:'grey',textAlign:'center',color:'white'}}>No content available for the filters selected.</h1>:exp}
 
         <div className="project-transition">
-        <img src='images/trees.png'/>
+        <img src='images/trees.png' onLoad={this.resize}/>
         </div>
         <div id="projects" className="exp-end">
 

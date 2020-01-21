@@ -7,7 +7,7 @@ export default class TagIcon extends Component {
       <div className="tag-container" >
       <div  title={this.props.title}  className={this.props.filtericon? "tag-icon filter-icon":"tag-icon"} onClick={this.props.onClick ? (e)=>this.props.onClick(e,this.props.title):null}>
           <span className='helper'></span>
-          <img className="tag-img" src = {this.props.image}/>
+          <img className="tag-img" src = {this.props.image=='images/Cloud.png'? 'images/aws.png':this.props.image}/>
       </div>
       </div>
     );

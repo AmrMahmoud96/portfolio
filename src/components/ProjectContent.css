@@ -15,11 +15,28 @@ cursor: pointer;
   justify-content: center;
   text-align: center;
 }
-
+.project-description{
+  text-align: justify;
+  text-justify:distribute;
+  margin-bottom: 2rem;
+}
+.project-acheivement{
+  font-size: 20px;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: black;
+  background: gold;
+}
 .project-img{
   margin-bottom: 20px;
   max-width: 200px;
   max-height: 200px;
+    border-radius: 30px;
+    background: white;
 }
 .project-content-container{
   display: inline-block;

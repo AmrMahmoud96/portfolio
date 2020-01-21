@@ -78,10 +78,12 @@ export default class ProjectContent extends Component {
         <ProjectModal height="200px" date={this.state.start+' '+this.state.year} data = {this.props.data} show={this.state.showModal} close={this.handleCloseModal}/>
           <div className="project-company-info">
             <img  alt="Failed to Load" onClick={this.handleOpenModal} className='project-img'  src ={this.props.data.mainImage}/>
-
+            {this.props.data.acheivement &&
+            <span className="project-acheivement">{this.props.data.acheivement}</span>
+          }
           </div>
 
-          <p>{this.props.data.description}</p>
+          <p className="project-description">{this.props.data.description}</p>
 
           {this.props.data.tags.length> 0 &&
             <div className="border-container">
