@@ -20,25 +20,18 @@ class Canvas extends Component {
   // };
 
 
-    constructor() {
-      super();
+    constructor(props) {
+      super(props);
       this.state = {
         width:  800,
         height: 182
       }
+      this.updateDimensions=this.updateDimensions.bind(this)
     }
-
     /**
      * Calculate & Update state of new dimensions
      */
     updateDimensions() {
-      // if(window.innerWidth < 500) {
-      //   this.setState({ width: window.innerWidth, height: 2500 });
-      // } else {
-      //   let update_width  = window.innerWidth;
-      //   let update_height = Math.round(update_width/4.4);
-      //   this.setState({ width: update_width, height: update_height });
-      // }
       let w = window.innerWidth-20
       let h = window.innerHeight+1
 

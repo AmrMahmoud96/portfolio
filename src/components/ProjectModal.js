@@ -76,12 +76,12 @@ export default class ProjectModal extends Component {
 
         </div>
 
-        <Carousel swipeable useKeyboardArrows infiniteLoop dynamicHeight >
+        <Carousel swipeable useKeyboardArrows infiniteLoop dynamicHeight  showThumbs={window.innerWidth <= 760? false:true} showIndicators={window.innerWidth <= 760? false:true} >
         {images &&
           images.map((i,index)=>
           <div key={index} className="carousel-img-div" >
                <img  src = {i.path} />
-               <p style={{'position':'absolute','bottom':'5%'}}>{i.caption}</p>
+               <p className='legend' style={{'background':'#000000b5'}}>{i.caption}</p>
             </div>
 
 
@@ -90,8 +90,7 @@ export default class ProjectModal extends Component {
           videos.map((v,index)=>
           <div key={index} className="iframe-div">
             <img src = "images/play.png" style={{'display':'none'}}/>
-            <iframe src={v}frameborder="0" height="315" width="560" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
-            <p style={{'position':'absolute','bottom':'5%'}}>{v}</p>
+            <iframe src={v} frameborder="0" height="315" width="560" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
             </div>
         )}
 
@@ -99,16 +98,16 @@ export default class ProjectModal extends Component {
         </Carousel>
 
         {this.props.data.repolink &&
-          <div>
+          <div style={{'marginTop':'20px'}}>
           <a href={this.props.data.repolink} target="_blank">Check out the repo here</a>
           </div>
         }
         {this.props.data.url &&
-          <div>
-          <a href={this.props.data.url} target="_blank">See more</a>
+          <div style={{'marginTop':'10px'}}>
+          <a href={this.props.data.url}  target="_blank">See more</a>
           </div>
         }
-        <div style={{'textAlign':'center','margin-top':'auto'}}>
+        <div style={{'textAlign':'center','marginTop':'20px'}}>
         <Button onClick={this.props.close}  variant="primary" size='lg'>Done</Button>
         </div>
 

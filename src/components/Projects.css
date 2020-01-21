@@ -1,4 +1,4 @@
-.project{
+.project-section{
   background-color: black;
 }
 .project-intro{
@@ -12,4 +12,7 @@ color: white !important;
   min-height: 100px;
   /* font-weight: bold; */
   /* color:white; */
+}
+.unseen{
+  display: none;
 }

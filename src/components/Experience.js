@@ -10,7 +10,12 @@ export default class Experience extends Component {
   constructor(props){
     super(props);
     experiences=experiences.sort(this.compare)
+    this.child = React.createRef();
 
+  }
+
+  componentDidUpdate(){
+    this.child.current.updateDimensions()
   }
   compare(a, b) {
     if (a.startDate < b.startDate ) return 1;
@@ -30,12 +35,10 @@ export default class Experience extends Component {
       }
       return notFiltered? <ExpContent key={index}  data={exp} dimensions={d}/>: null
     });
-
     return (
       <div className="experience" ref="experience">
-
       <div id ="snow" className="canv-background">
-        <Particles stars={false}/>
+        <Particles stars={false} ref={this.child} resize={this.props.resize}/>
       </div>
       <h1 className="exp-section-title" style={{backgroundColor:'black'}}>Experience</h1>
         {filteredAll? <h1  style={{padding:'50px',backgroundColor:'grey',textAlign:'center',color:'white'}}>No content available for the filters selected.</h1>:exp}

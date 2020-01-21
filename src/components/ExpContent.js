@@ -34,7 +34,7 @@ export default class ExpContent extends Component {
       <div className="experience-content">
       <div  className="experience-content-container" >
       <div className="experience-company-info">
-        <img  alt="Failed to Load" className='experience-img' width= {this.props.dimensions.width} height= {this.props.dimensions.height} src ={this.props.data.image}/>
+        <img  alt="Failed to Load" className='experience-img' width= {this.props.dimensions.width} height='auto' src ={this.props.data.image}/>
         <span>{this.props.data.position}</span>
         <span>{this.state.start} - {this.state.end} ({this.state.dateTime} months)</span>
         <span>{this.props.data.company}</span>

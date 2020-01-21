@@ -15,14 +15,19 @@ export default class ProjectContent extends Component {
       start:d1.toLocaleString('default', { month: 'short' }),
       startLong:d1.toLocaleString('default', { month: 'long' }),
       year:s[0],
-      showModal: false
+      showModal: false,
+      showProject:true
     }
 
 
     this.handleOpenModal = this.handleOpenModal.bind(this);
     this.handleCloseModal = this.handleCloseModal.bind(this);
     this.matchSkill=this.matchSkill.bind(this);
+    this.toggleShow=this.toggleShow.bind(this);
 
+  }
+  toggleShow(){
+        this.setState({ showProject: !this.state.showProject });
   }
   handleOpenModal () {
     this.lockBodyScrolling()
@@ -64,27 +69,31 @@ export default class ProjectContent extends Component {
         return <TagIcon key={index} title={skill} filtericon={false}  image={this.matchSkill(skill)}/>
       });
     return (
+      <div className="project">
       <div className="proj-border-container">
-      <h1 className="project-main-tag-caption"><span>{this.props.data.title} ({this.state.start+' '+this.state.year})</span></h1>
+      <h1 className="project-main-tag-caption" onClick={this.toggleShow}><span>{this.props.data.title} ({this.state.start+' '+this.state.year})</span></h1>
+      {this.state.showProject &&
+        <div className= "project-content" >
+        <div className='project-content-container'>
+        <ProjectModal height="200px" date={this.state.start+' '+this.state.year} data = {this.props.data} show={this.state.showModal} close={this.handleCloseModal}/>
+          <div className="project-company-info">
+            <img  alt="Failed to Load" onClick={this.handleOpenModal} className='project-img'  src ={this.props.data.mainImage}/>
 
-      <div className="project-content">
-      <div className='project-content-container'>
-      <ProjectModal height="200px" date={this.state.start+' '+this.state.year} data = {this.props.data} show={this.state.showModal} close={this.handleCloseModal}/>
-        <div className="project-company-info">
-          <img  alt="Failed to Load" onClick={this.handleOpenModal} className='project-img'  src ={this.props.data.mainImage}/>
-
-        </div>
-
-        <p>{this.props.data.description}</p>
-
-        {this.props.data.tags.length> 0 &&
-          <div className="border-container">
-          <h1 className="project-tag-caption"><span >Made With</span></h1>
-          <div className="project-tags">
-          {tags}</div>
           </div>
-        }
-      </div>
+
+          <p>{this.props.data.description}</p>
+
+          {this.props.data.tags.length> 0 &&
+            <div className="border-container">
+            <h1 className="project-tag-caption"><span >Made With</span></h1>
+            <div className="project-tags">
+            {tags}</div>
+            </div>
+          }
+        </div>
+        </div>
+      }
+
       </div>
       </div>
     );

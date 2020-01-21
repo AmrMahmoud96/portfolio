@@ -52,7 +52,7 @@ export default class Base extends Component {
     return(
       <div id="base">
       <div className="canv-background">
-        <Particles stars={true}/>
+        <Particles stars={true} resize={()=>{return null}}/>
       </div>
       <div  className="base" style={{height:this.state.height+'px'}}>
       <BaseHeader width = {this.state.width+'px'}/>

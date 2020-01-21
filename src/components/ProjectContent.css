@@ -36,11 +36,29 @@ cursor: pointer;
   margin: 0 auto;
   width: fit-content;
 }
+.project-main-tag-caption:hover{
+  cursor: pointer;
+}
+.project{
+  padding: 15px;
+}
+
+@media only screen and (max-width: 450px) {
+
+  .project{
+    padding: 30px;
+  }
+  .project-content{
+    margin-top: 3vh;
+    margin-bottom:0px;
+  }
+}
+
 .proj-border-container{
   border-top: 2px ridge white;
   /* margin: 0 auto;
    */
-   margin:30px;
+   margin:10px;
   color: white!important;
 }
 .project-tag-caption{
@@ -52,9 +70,9 @@ cursor: pointer;
 }
 .project-main-tag-caption{
       text-align: center;
-      margin-top: -12px;
-      height: 24px;
-      line-height: 24px;
+      margin-top: -15px;
+      height: 30px;
+      line-height: 30px;
       font-size: 24px;
 }
 

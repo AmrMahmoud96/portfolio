@@ -4,7 +4,9 @@
   /* visibility: visible!important;
   dis */
 }
-
+.carousel .slide  .carousel-img-div .legend{
+  opacity: .05;
+}
 .close{
   font-size: 2em;
 }
@@ -28,6 +30,9 @@
   width: 100%;
   max-height: 600px!important;
   height: 100%;
+}
+.link-type{
+  margin: 20px 0;
 }
 .carousel-img-div img{
   width: auto !important;

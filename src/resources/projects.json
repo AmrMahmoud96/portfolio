@@ -5,7 +5,7 @@
     "mainImage":"images/Evaquint/main.jpg",
     "images":[{
 	     "path":"images/Evaquint/wireframes.png",
-	      "caption":"test"
+	      "caption":"Initial wireframes chosen for the mobile app. "
         }],
     "videos":[],
     "url":"",
@@ -19,13 +19,13 @@
     "mainImage":"images/Capstone/main.png",
     "images":[{
        "path":"images/Capstone/mainpage.png",
-        "caption":"test"
+        "caption":"Main page of the Alpha Factory web app."
         },{
 	     "path":"images/Capstone/finalflow.png",
-	      "caption":"test"
+	      "caption":"Final wireflows detailing the backend and process flows."
         },{
         	     "path":"images/Capstone/Tearsheet.png",
-        	      "caption":"test"
+        	      "caption":"Sample tearsheet of portfolio performance produced by the Alpha Factory models."
                 }],
     "videos":[],
     "url":"",
