@@ -10,7 +10,7 @@
     "videos":[],
     "url":"",
     "date":"2019-11-01",
-    "description":"Designed an application in order to address a major event organization problem apparent in local communities. Implemented JWT tokens to validate users and create a robust user management system through Postgres SQL. Vouched for a service-oriented approach to develop a RESTful API back-end that scales with growing numbers of users, events, and vendors. Used Adobe XD to draft wireframes/flows with design choices that focused on simplistic UI and great UX.",
+    "description":"EventLite, formerly known as Evaquint, is an application I co-founded with the purpose of addressing a major event organization problem I found apparent in my local community. EventLite tackles event organization by providing a platform for participants and hosts to interact over a simplified event-planning process. JWT tokens were implemented to validate users and create a robust user management system through Postgres SQL. A service-oriented approach was selected in order to develop a RESTful API back-end that scales with growing numbers of users, events, and vendors. Adobe XD drafted wireframes/flows showcase design choices that focused on simplistic UI and great UX.",
     "tags":["Go","SQL","Git","Cloud Technologies","RESTful APIs"]
   },
   {
@@ -28,9 +28,9 @@
         	      "caption":"Sample tearsheet of portfolio performance produced by the Alpha Factory models."
                 }],
     "videos":[],
-    "url":"",
+    "url":"http://alphafactory.herokuapp.com/about",
     "date":"2018-09-01",
-    "description":"Optimally allocate funds to form a portfolio using the risk-parity model that is based on the user's financial goals and risk tolerance. Designed and developed a fully functioning robo-advisor web app for the average retail investor. Built the application using Flask and Jinja2 for both front-end and back-end simultaneously. Applied financial models and back-testing functions to produce portfolios based on user goals and risk tolerance. Deployed the final web application to Heroku and ensured production functionality with the MongoDB database.",
+    "description":"Optimally allocate funds to form a portfolio using a risk-parity model that is based on the user's financial goals and risk tolerance (acquired through an introductory questionnaire). Designed and developed a fully functioning robo-advisor web app for the average retail investor through Flask and Jinja2. Applied financial models and back-testing functions to produce proven and sound portfolios based on user goals and risk tolerance. Deployed the final web application to Heroku and ensured production functionality with the MongoDB database.",
     "tags":["Python","Flask","Git","JavaScript","NoSQL","RESTful APIs"]
   },
   {
@@ -50,7 +50,7 @@
     "videos":["https://www.youtube.com/embed/BAfB_pdHK6U"],
     "url":"",
     "date":"2015-09-01",
-    "description":"Strategically assigned tasks to be completed within a group through the use of Gantt charts and other planning tools and ensured the completion of project deliverables within expected deadlines. Programmed a PIC16F877 microcontroller using Assembly to take input from multiple different sensors and autonomously accomplish the tasks required of the robot. Integrated the circuits and mechanical subsystems while iteratively improving the robot to exceed project criteria",
+    "description":"Designed and built an autonomous robot inspired by a nuclear powerplant’s need to frequent check radioactive waste water levels. As part of the Engineering Science program, AER201 is a course that introduces engineers to real world problems and challenges them to produce a technical solution through programming and innovation. As head of programming and systems integration, I strategically assigned tasks to be completed within a group through the use of Gantt charts and other planning tools and ensured the completion of project deliverables within expected deadlines. Programmed a PIC16F877 microcontroller using Assembly to take input from multiple different sensors and autonomously accomplish the tasks required of the robot. Integrated the circuits and mechanical subsystems while iteratively improving the robot at each checkpoint to exceed project criteria.",
     "tags":[]
   },
   {
@@ -70,7 +70,7 @@
     "videos":["https://www.youtube.com/embed/k9_700-KTkY"],
     "url":"https://devpost.com/software/safetag",
     "date":"2019-01-26",
-    "description":"SafeTag is an iOS/Android app that uses AR to create a digital creative space for artists. Created for part of NSBE Hacks 2019, first of its kind. 1st Place Prize Winner",
+    "description":"Created in 8 hours for the first hackathon hosted by NSBE with over 60 participants. Inspired by the movie Spiderman – Into the Spider-verse, SafeTag is an iOS app that uses AR to create a safe and infinite digital space for street-artists. By utilizing a room-separated VR world, SafeTag allows artists to tag their own unique creations to surfaces all around the world without the risks or drawbacks of physical graffiti. A point to note is that SafeTag was created in limited time but was designed with the intention of expanding it’s usage to a number of real-world applications such as museum downsizing and tourism enabling (through an arts-agram of sorts).",
     "tags":["Git","RESTful APIs","NoSQL","nodeJS"]
   },
   {
@@ -105,7 +105,7 @@
     "videos":["https://www.youtube.com/embed/nXpSHgAcLX0"],
     "url":"https://devpost.com/software/facelyft",
     "date":"2019-01-08",
-    "description":"FaceLyft is a web app for carpool drivers that provides drivers tools for day-to-day work. Features interact e-transfer through facial recognition, smart car door lock and unlock via device and track vehicle information. Made for UoFT Hacks 2019 36 hour competition. 2nd Place Prize Winner, Best Hack using Interac e-Transfer Open API, Top 10 Prize (Entrepreneurship Hatchery)",
+    "description":"2nd place winner of a 36 hour hackathon hosted by UofT and MLH with over 300 participants. FaceLyft is a web app for carpool drivers that provides drivers and riders the tools to make the carpooling experience (and general money transfer experience) seamless. Features facial recognition payment system through IBM Watson AI and interact e-transfer, smart car door lock/unlock via the web app, transaction history, payment status, and vehicle information tracking. Other prizes: Best Hack using Interac e-Transfer Open API, Top 10 Prize (Entrepreneurship Hatchery).",
     "tags":["Git","React","RESTful APIs","Machine Learning","NoSQL","nodeJS"]
   },
   {
@@ -133,7 +133,7 @@
     "videos":["https://www.youtube.com/embed/8Y1DPuxwB04"],
     "url":"",
     "date":"2018-03-01",
-    "description":"One of the top 5 project created in a 2 day Hackathon event hosted by Hackworks. BlueChain is an ethereum based marketplace that handles realtime transactions. Features Loyalty Point Incentives, Optional warranty for selling items, ability to search for anything on the blockchain",
+    "description":"One of the top 5 projects created in a 2 day hackathon hosted by Hackworks and Intact. BlueChain is an Ethereum-based marketplace that utilizes Smart Contracts to handle real-time blockchain transactions. Features include loyalty point incentives, warranties and complete purchase history, searching functionality for all products on the network, and secure transactions through smart contracts.",
     "tags":["Git","React","nodeJS"]
   },
   {
@@ -144,7 +144,7 @@
     "videos":[],
     "url":"",
     "date":"2018-11-01",
-    "description":"",
+    "description":"Second place winner of the Citadel Algorithmic Trading Competition hosted in November 2018. The purpose of the competition was to program a trading algorithm that can produce the highest risk-free (or arbitrage) returns in a simulated trading environment while competing against other trading algorithms. While the algorithm produced the highest overall profit, final rankings were determined by average position across five trial runs.",
     "tags":["Git","Python","RESTful APIs"]
   },
   {
@@ -158,7 +158,7 @@
     "videos":[],
     "url":"https://www.utefa.com",
     "date":"2018-09-01",
-    "description":"",
+    "description":"A double-sided website I volunteered to help enhance for the University of Toronto Engineering Finance Association (UTEFA). I assisted in the rework of the website to include a member-facing dashboard that displays club activities, reports on portfolio performance, a voting section for portfolio decisions, a section to view club files, and a chat board for posting and responding to posts. As part of the development, I was also tasked with developing to account for admin-user sanctions that include allowing positing of discussion boards, content files, and votes.",
     "tags":["Git","Cloud Technologies","React","RESTful APIs","NoSQL","nodeJS"]
   }
 ]
