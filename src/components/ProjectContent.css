@@ -16,8 +16,9 @@ cursor: pointer;
   text-align: center;
 }
 .project-description{
-  text-align: justify;
-  text-justify:distribute;
+  /* text-align: justify;
+  text-justify:distribute; */
+  /* hyphens: auto; */
   margin-bottom: 2rem;
 }
 .project-acheivement{

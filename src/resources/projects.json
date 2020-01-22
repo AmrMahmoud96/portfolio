@@ -21,12 +21,24 @@
        "path":"images/Capstone/mainpage.png",
         "caption":"Main page of the Alpha Factory web app."
         },{
-	     "path":"images/Capstone/finalflow.png",
-	      "caption":"Final wireflows detailing the backend and process flows."
-        },{
-        	     "path":"images/Capstone/Tearsheet.png",
-        	      "caption":"Sample tearsheet of portfolio performance produced by the Alpha Factory models."
-                }],
+            	     "path":"images/Capstone/generator.png",
+            	      "caption":"Sample tearsheet of portfolio performance produced by the Alpha Factory models."
+                  },{
+              	     "path":"images/Capstone/questions.png",
+              	      "caption":"Sample tearsheet of portfolio performance produced by the Alpha Factory models."
+                  },{
+              	     "path":"images/Capstone/result.png",
+              	      "caption":"Sample tearsheet of portfolio performance produced by the Alpha Factory models."
+                      },{
+                  	     "path":"images/Capstone/dash.png",
+                  	      "caption":"Sample tearsheet of portfolio performance produced by the Alpha Factory models."
+                          },{
+                          	     "path":"images/Capstone/Tearsheet.png",
+                          	      "caption":"Sample tearsheet of portfolio performance produced by the Alpha Factory models."
+                                  },{
+                  	     "path":"images/Capstone/finalflow.png",
+                  	      "caption":"Final wireflows detailing the backend and process flows."
+                          }],
     "videos":[],
     "url":"http://alphafactory.herokuapp.com/about",
     "date":"2018-09-01",
@@ -120,12 +132,30 @@
         },{
            "path":"images/RUHacks/presenting.jpg",
             "caption":"test"
-            }],
-    "videos":["https://www.youtube.com/embed/-rNsIEmY0nU"],
+            },{
+               "path":"images/RUHacks/overview.png",
+                "caption":"test"
+                },{
+                   "path":"images/RUHacks/medical.png",
+                    "caption":"test"
+                    },{
+                       "path":"images/RUHacks/appointment.png",
+                        "caption":"test"
+                        },{
+                           "path":"images/RUHacks/labs.png",
+                            "caption":"test"
+                            },{
+                               "path":"images/RUHacks/drugs.png",
+                                "caption":"test"
+                                },{
+                                   "path":"images/RUHacks/emergency.png",
+                                    "caption":"test"
+                                    }],
+    "videos":["https://www.youtube.com/embed/CITZ9O8bc7s","https://www.youtube.com/embed/-rNsIEmY0nU"],
     "url":"",
     "date":"2018-03-30",
     "description":"Project created in 36 hours for hackathon hosted by Ryerson University. ArcAngel is an AI that helps give soft diagnosis when given a series of symptoms. Features: Speech-to-text, appointment system, emergency info, RFID login system",
-    "tags":["Git","React","RESTful APIs","Machine Learning","nodeJS"]
+    "tags":["Git","React","RESTful APIs","Machine Learning","nodeJS","Cloud Technologies","NoSQL"]
   },
   {
     "title":"Mission Hack: BlueChain",
@@ -144,7 +174,10 @@
     "repolink":"https://github.com/AmrMahmoud96/Citadel-Algo-Contest",
     "mainImage":"images/Citadel/main.png",
     "acheivement":"2nd Place",
-    "images":[],
+    "images":[{
+       "path":"images/Citadel/traders.jpg",
+        "caption":"test"
+        }],
     "videos":[],
     "url":"",
     "date":"2018-11-01",
@@ -158,7 +191,19 @@
     "images":[{
        "path":"images/UTEFA/homepage.png",
         "caption":"test"
-        }],
+        },{
+           "path":"images/UTEFA/membermain.png",
+            "caption":"test"
+            },{
+               "path":"images/UTEFA/discuss.png",
+                "caption":"test"
+                },{
+                   "path":"images/UTEFA/files.png",
+                    "caption":"test"
+                    },{
+                       "path":"images/UTEFA/upload.png",
+                        "caption":"test"
+                        }],
     "videos":[],
     "url":"https://www.utefa.com",
     "date":"2018-09-01",
