@@ -80,7 +80,7 @@
         	     "path":"images/NSBEHacks/Prize2.jpg",
         	      "caption":"test"
                 }],
-    "videos":["https://www.youtube.com/embed/k9_700-KTkY"],
+    "videos":["https://www.youtube.com/embed/FHpvpywwj94","https://www.youtube.com/embed/k9_700-KTkY"],
     "url":"https://devpost.com/software/safetag",
     "date":"2019-01-26",
     "description":"Created in 8 hours for the first hackathon hosted by NSBE with over 60 participants. Inspired by the movie Spiderman – Into the Spider-verse, SafeTag is an iOS app that uses AR to create a safe and infinite digital space for street-artists. By utilizing a room-separated VR world, SafeTag allows artists to tag their own unique creations to surfaces all around the world without the risks or drawbacks of physical graffiti. A point to note is that SafeTag was created in limited time but was designed with the intention of expanding it’s usage to a number of real-world applications such as museum downsizing and tourism enabling (through an arts-agram of sorts).",
