@@ -5,8 +5,11 @@
     "mainImage":"images/Evaquint/main.png",
     "images":[{
 	     "path":"images/Evaquint/wireframes.png",
-	      "caption":"Initial wireframes chosen for the mobile app. "
-        }],
+	      "caption":"Initial wireframes chosen for the mobile app."
+        },{
+    	     "path":"images/Evaquint/EvaquintAPIDiagram.png",
+    	      "caption":"Backend Endpoints selected and designed for the GoLang RESTful API."
+            }],
     "videos":[],
     "url":"",
     "date":"2019-11-01",
