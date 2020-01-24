@@ -49,7 +49,7 @@ export default class ExpContent extends Component {
   }
   render() {
     let splitText = this.props.data.description.split('\n').map((item, i) => {
-      return <li key={i}>{item}</li>;
+      return <li key={i} className="exp-list-item">{item}</li>;
     });
     return (
       <div>

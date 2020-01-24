@@ -12,7 +12,9 @@
   /* width: 90%; */
   max-width: 75%;
 }
-
+.exp-list-item{
+  margin: 0 0 8px 0;
+}
 @media only screen and (max-width: 800px) {
   .experience-content{
     margin: 30px;
@@ -27,7 +29,7 @@
   margin-bottom: 20px;
 }
 .experience-description{
-
+  background: black;
 }
 .experience-img{
   margin-bottom: 20px;
@@ -36,6 +38,7 @@
 }
 .experience-content-container{
   display: inline-block;
+  z-index: 100;
 
   /* width: 90%; */
   /* min-width: 500px; */

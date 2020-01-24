@@ -1,0 +1,29 @@
+.no-content{
+width: 100%;
+  /* white-space: nowrap; */
+  overflow: hidden; /*hide excess images parts on small screens*/
+  display: inline-flex;
+}
+.no-content>img { height: 100%;}
+/* .header{
+  background-color: cyan;
+  color:white;
+  height:80px;
+} */
+.astro{ max-height: 150px; height: auto; width:100%; max-width: 150px;}
+.moon{max-height: 300px; height: auto;width:100%; max-width: 300px;}
+.no-content-text{
+  padding: 20px;
+  background: black;
+  text-align: center;
+  color: white;
+  font-size: 4vw;
+  font-weight: 100;
+  font-family: bellefair;
+}
+.no-content-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}

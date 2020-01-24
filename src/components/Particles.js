@@ -38,6 +38,7 @@ class Canvas extends Component {
       if(!this.props.stars){
         h= window.resizeCanv();
       }
+      // console.log(w,h)
       this.setState({width:w,height:h})
 
     }
@@ -283,7 +284,7 @@ const stars ={
 
 <Particles
         {...this.state}
-        className="static-back"   params = {this.props.stars? stars:snow}/>
+        className="static-back" style={{display: this.props.hide ? 'none' : 'block'}} onLoad={this.props.resize} params = {this.props.stars? stars:snow}/>
     );
   }
 }

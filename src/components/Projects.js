@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Projects.css';
 import ProjectContent from './ProjectContent'
-
+import NoContent from './NoContent'
 let projects = require('../resources/projects.json')
 var filteredAll=true
 
@@ -56,9 +56,9 @@ export default class Projects extends Component {
     return (
       <div className="project-section">
       <h1 className="proj-section-title" style={{backgroundColor:'black'}}></h1>
-          <h2 className="project-intro">Click on a project image to view the full gallery.</h2>
+          <h2 className="project-intro" style={{display: filteredAll? "none":'block'}}>Click on a project image to view the full gallery.</h2>
 
-        {filteredAll? <h1  style={{padding:'50px',backgroundColor:'grey',textAlign:'center',color:'white'}}>No content available for the filters selected.</h1>:proj}
+        {filteredAll? <NoContent/>:proj}
       </div>
     );
   }

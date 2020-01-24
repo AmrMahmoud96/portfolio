@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Base.css';
-import headshot from '../resources/Headshot.jpg';
+import headshot from '../resources/Headshot2.jpg';
 import BaseHeader from './BaseHeader';
 import Particles from "./Particles";
 

@@ -8,7 +8,7 @@
 	      "caption":"Initial wireframes chosen for the mobile app."
         },{
     	     "path":"images/Evaquint/EvaquintAPIDiagram.png",
-    	      "caption":"Backend Endpoints selected and designed for the GoLang RESTful API."
+    	      "caption":"Backend end points selected and designed for the GoLang RESTful API."
             }],
     "videos":[],
     "url":"",
@@ -25,19 +25,19 @@
         "caption":"Main page of the Alpha Factory web app."
         },{
             	     "path":"images/Capstone/generator.png",
-            	      "caption":"Sample tearsheet of portfolio performance produced by the Alpha Factory models."
+            	      "caption":"Account creation process: simple questions asked to understand the user's financial goals."
                   },{
               	     "path":"images/Capstone/questions.png",
-              	      "caption":"Sample tearsheet of portfolio performance produced by the Alpha Factory models."
+              	      "caption":"Questionnaire consiting of twenty questions with only two options each; meant to gauge user's risk tolerance."
                   },{
               	     "path":"images/Capstone/result.png",
-              	      "caption":"Sample tearsheet of portfolio performance produced by the Alpha Factory models."
+              	      "caption":"Risk tolerance results from calculating the average of the questionnaires scores. Answers are considered either aggressive or conservative and tallied up to bucket users into one of 5 possible risk levels."
                       },{
                   	     "path":"images/Capstone/dash.png",
-                  	      "caption":"Sample tearsheet of portfolio performance produced by the Alpha Factory models."
+                  	      "caption":"User dashboard to monitor portfolio performance, statistics, and allocations."
                           },{
                           	     "path":"images/Capstone/Tearsheet.png",
-                          	      "caption":"Sample tearsheet of portfolio performance produced by the Alpha Factory models."
+                          	      "caption":"A sample tearsheet of portfolio performance produced by the Alpha Factory models."
                                   },{
                   	     "path":"images/Capstone/finalflow.png",
                   	      "caption":"Final wireflows detailing the backend and process flows."
@@ -54,13 +54,13 @@
     "mainImage":"images/AER201/main.png",
     "images":[{
 	     "path":"images/AER201/frame.png",
-	      "caption":"test"
+	      "caption":"Mechanical frame upon which all of the sensors, motors, and payloads are mounted."
         },{
     	     "path":"images/AER201/kill-button.jpg",
-    	      "caption":"test"
+    	      "caption":"Top view of robot including kill-button (red square) to stop the function of the robot in emergencies."
             },{
         	     "path":"images/AER201/Robot1.png",
-        	      "caption":"test"
+        	      "caption":"Fully complete prototype including a retractable arm that avoids obstacles while reading the water level (white tape strip) of the buckets and reports them autonomously."
                 }],
     "videos":["https://www.youtube.com/embed/BAfB_pdHK6U"],
     "url":"",
@@ -75,13 +75,13 @@
     "acheivement":"1st Place",
     "images":[{
 	     "path":"images/NSBEHacks/presenting.jpeg",
-	      "caption":"test"
+	      "caption":"Presenting to a group of judges from a multitiude of different companies and diverse backgrounds."
         },{
     	     "path":"images/NSBEHacks/Prize.jpeg",
-    	      "caption":"test"
+    	      "caption":"First place award picture."
             },{
         	     "path":"images/NSBEHacks/Prize2.jpg",
-        	      "caption":"test"
+        	      "caption":"Team posing for the prize picture. (Missing Asseel Sidique)"
                 }],
     "videos":["https://www.youtube.com/embed/FHpvpywwj94","https://www.youtube.com/embed/k9_700-KTkY"],
     "url":"https://devpost.com/software/safetag",
@@ -96,33 +96,33 @@
     "acheivement":"2nd Place",
     "images":[{
        "path":"images/UofTHacks/fullpresentationroom.jpg",
-        "caption":"test"
+        "caption":"Hundreds of participants and guests packed into UofT's lecture rooms to see presentations of the top 5 projects."
         },{
            "path":"images/UofTHacks/interac.jpeg",
-            "caption":"test"
+            "caption":"Interac team posing with the FaceLyft team as winners of Interac's e-Transfer Open API challenge."
             },{
         	     "path":"images/UofTHacks/me.jpg",
-        	      "caption":"test"
+        	      "caption":"Demoing the facial recognition payment system with some audience interactivity."
                 },{
             	     "path":"images/UofTHacks/prep.jpg",
-            	      "caption":"test"
+            	      "caption":"Presentation setup for open house."
                     },{
                 	     "path":"images/UofTHacks/presentation-hall.jpeg",
-                	      "caption":"test"
+                	      "caption":"Presentation setup (top) and jam packed presentation hall for the hundreds of guests and participants of UofTHacks."
                         },{
                     	     "path":"images/UofTHacks/presenting.jpg",
-                    	      "caption":"test"
+                    	      "caption":"Answering questions about future plans for the project as well as limitations."
                             },{
                         	     "path":"images/UofTHacks/prize.jpeg",
-                        	      "caption":"test"
+                        	      "caption":"Winner of the second place prize overall!"
                                 },{
                             	     "path":"images/UofTHacks/team.jpeg",
-                            	      "caption":"test"
+                            	      "caption":"The full FaceLyft team. From left to right: Amr Mahmoud, Lisa Tran, Kyra Simone, Asseel Sidique."
                                     }],
     "videos":["https://www.youtube.com/embed/nXpSHgAcLX0"],
     "url":"https://devpost.com/software/facelyft",
     "date":"2019-01-08",
-    "description":"Second place winner of a 36 hour hackathon hosted by UofT and MLH with over 300 participants. FaceLyft is a web app for carpool drivers that provides drivers and riders the tools to make the carpooling experience (and general money transfer experience) seamless. Features facial recognition payment system through IBM Watson AI and interact e-transfer, smart car door lock/unlock via the web app, transaction history, payment status, and vehicle information tracking. Other prizes: Best Hack using Interac e-Transfer Open API, Top 10 Prize (Entrepreneurship Hatchery).",
+    "description":"Second place winner of a 36 hour hackathon hosted by UofT and MLH with over 300 participants. FaceLyft is a web app for carpool drivers that provides drivers and riders the tools to make the carpooling experience (and general money transfer experience) seamless. Features facial recognition payment system through IBM Watson AI and interac e-transfer, smart car door lock/unlock via the web app, transaction history, payment status, and vehicle information tracking. Other prizes: Best Hack using Interac e-Transfer Open API, Top 10 Prize (Entrepreneurship Hatchery).",
     "tags":["Git","React","RESTful APIs","Machine Learning","NoSQL","nodeJS"]
   },
   {
@@ -131,33 +131,36 @@
     "mainImage":"images/RUHacks/main.png",
     "images":[{
        "path":"images/RUHacks/discussion.jpg",
-        "caption":"test"
+        "caption":"Asseel Sidique discussing ideas and brainstorming with the team."
         },{
            "path":"images/RUHacks/presenting.jpg",
-            "caption":"test"
+            "caption":"Presenting ArcAngel to a judge."
             },{
+               "path":"images/RUHacks/loginpage.png",
+                "caption":"Login and landing page when loading up ArcAngel. To access the main site, users are required to scan an RFID card. (see video for demo)"
+                },{
                "path":"images/RUHacks/overview.png",
-                "caption":"test"
+                "caption":"Overview / Main page after logging into ArcAngel"
                 },{
                    "path":"images/RUHacks/medical.png",
-                    "caption":"test"
+                    "caption":"Medical information page with past symptoms, diagnosis, and other information."
                     },{
                        "path":"images/RUHacks/appointment.png",
-                        "caption":"test"
+                        "caption":"Appointment page for scheduling and rescheduling meetings with doctors as well as prior meeting history with notes."
                         },{
                            "path":"images/RUHacks/labs.png",
-                            "caption":"test"
+                            "caption":"Lab results page for any tests doctors have requested for you."
                             },{
                                "path":"images/RUHacks/drugs.png",
-                                "caption":"test"
+                                "caption":"Prescription tab to keep track of current medication and important notes on drug information."
                                 },{
                                    "path":"images/RUHacks/emergency.png",
-                                    "caption":"test"
+                                    "caption":"Emergency contant information as well as medical information for paramedics arriving on scene to an emergency."
                                     }],
     "videos":["https://www.youtube.com/embed/CITZ9O8bc7s","https://www.youtube.com/embed/-rNsIEmY0nU"],
     "url":"",
     "date":"2018-03-30",
-    "description":"Project created in 36 hours for hackathon hosted by Ryerson University. ArcAngel is an AI that helps give soft diagnosis when given a series of symptoms. Features: Speech-to-text, appointment system, emergency info, RFID login system",
+    "description":"Project created in 36 hours for a hackathon hosted by Ryerson University and MLH. ArcAngel is an AI tool that provides a soft diagnosis when given a series of symptoms. ArcAngel is built into a medical dashboard that displays patient history, drug prescriptions and information, doctor messages and appointments, lab results, and more.  Features: Speech-to-text, appointment management system, emergency info, RFID (card) access to the website, and current prescription + drug information sheets.",
     "tags":["Git","React","RESTful APIs","Machine Learning","nodeJS","Cloud Technologies","NoSQL"]
   },
   {
@@ -179,12 +182,12 @@
     "acheivement":"2nd Place",
     "images":[{
        "path":"images/Citadel/traders.jpg",
-        "caption":"test"
+        "caption":"A trader looks at the screen to monitor the performance of their algorithm in Rotman's simulated trading environment."
         }],
     "videos":[],
     "url":"",
     "date":"2018-11-01",
-    "description":"Second place winner of the Citadel Algorithmic Trading Competition hosted in November 2018. The purpose of the competition was to program a trading algorithm that can produce the highest risk-free (or arbitrage) returns in a simulated trading environment while competing against other trading algorithms. While the algorithm produced the highest overall profit, final rankings were determined by average position across five trial runs.",
+    "description":"Second place winner of the Citadel Algorithmic Trading Competition hosted in November 2018. The purpose of the competition was to program a trading algorithm that can produce the highest risk-free (or arbitrage) returns in a simulated trading environment while competing against other trading algorithms. While my algorithm produced the highest overall profit, final rankings were determined by average position across five trial runs.",
     "tags":["Git","Python","RESTful APIs"]
   },
   {
@@ -193,19 +196,19 @@
     "mainImage":"images/UTEFA/main.png",
     "images":[{
        "path":"images/UTEFA/homepage.png",
-        "caption":"test"
+        "caption":"Public home page available to all users first accessing the site."
         },{
            "path":"images/UTEFA/membermain.png",
-            "caption":"test"
+            "caption":"Member home page displaying important club announcements available to club members after logging into the site."
             },{
                "path":"images/UTEFA/discuss.png",
-                "caption":"test"
+                "caption":"Discussion board for posting and responding to ongoing discussions within the club."
                 },{
                    "path":"images/UTEFA/files.png",
-                    "caption":"test"
+                    "caption":"File viewing page to review and download any club-related materials needed."
                     },{
                        "path":"images/UTEFA/upload.png",
-                        "caption":"test"
+                        "caption":"Admin view: Post page for posting discussions, announcements, votes on portfolio decisions, and club files."
                         }],
     "videos":[],
     "url":"https://www.utefa.com",

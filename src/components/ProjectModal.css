@@ -1,6 +1,7 @@
 
 .thumb img{
   display:inline-block !important;
+  opacity: 1!important;
   /* visibility: visible!important;
   dis */
 }
@@ -16,14 +17,22 @@
 .modal-header{
   display: block!important;
 }
-.iframe-div{
+.carousel .div .video-play-btn2{
+  z-index: 1000;
+  position: absolute;
+  opacity: 1;
+  top:0;
+  left:0;
+}
+.custom-iframe-div{
   position: relative;
   width: 100%;
   padding-bottom: 56.25%;
   height: 100%;
   max-height: 600px!important;
+  /* max-height: 600px!important; */
 }
-.iframe-div iframe{
+.custom-iframe-div iframe{
   position: absolute;
   top:0;
   left: 0;

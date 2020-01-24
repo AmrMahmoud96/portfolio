@@ -10,6 +10,17 @@
   text-align: center;
   color: black!important;
 }
+.flipped{
+  transform: rotate(180deg);
+  margin-top:-2px;
+}
+.skills-transition{
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+  min-height: 80px;
+
+}
 .skills-container{
   /* background: url(../resources/connectwork.png); */
   /* display: inline-block; */

@@ -88,8 +88,8 @@ export default class ProjectModal extends Component {
         )}
         {videos &&
           videos.map((v,index)=>
-          <div key={index} className="iframe-div">
-            <img src = "images/play.png" style={{'display':'none'}}/>
+          <div key={index} className="custom-iframe-div">
+            <img src = "images/play.png" className="video-play-btn"style={{'opacity':'0'}}/>
             <iframe src={v} frameborder="0" height="315" width="560" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
             </div>
         )}
