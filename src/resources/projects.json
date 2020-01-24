@@ -71,7 +71,7 @@
   {
     "title":"NSBE Hacks: SafeTag",
     "repolink":"https://github.com/AmrMahmoud96/SafeTag",
-    "mainImage":"images/NSBEHacks/main.png",
+    "mainImage":"images/NSBEHacks/main.jpg",
     "acheivement":"1st Place",
     "images":[{
 	     "path":"images/NSBEHacks/presenting.jpeg",
@@ -136,7 +136,7 @@
            "path":"images/RUHacks/presenting.jpg",
             "caption":"Presenting ArcAngel to a judge."
             },{
-               "path":"images/RUHacks/loginpage.png",
+               "path":"images/RUHacks/loginpage.jpg",
                 "caption":"Login and landing page when loading up ArcAngel. To access the main site, users are required to scan an RFID card. (see video for demo)"
                 },{
                "path":"images/RUHacks/overview.png",
@@ -195,7 +195,7 @@
     "repolink":"",
     "mainImage":"images/UTEFA/main.png",
     "images":[{
-       "path":"images/UTEFA/homepage.png",
+       "path":"images/UTEFA/homepage.jpg",
         "caption":"Public home page available to all users first accessing the site."
         },{
            "path":"images/UTEFA/membermain.png",
