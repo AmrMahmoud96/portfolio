@@ -75,7 +75,7 @@
     "acheivement":"1st Place",
     "images":[{
 	     "path":"images/NSBEHacks/presenting.jpeg",
-	      "caption":"Presenting to a group of judges from a multitiude of different companies and diverse backgrounds."
+	      "caption":"Presenting to a group of judges from diversly different companies and technical backgrounds."
         },{
     	     "path":"images/NSBEHacks/Prize.jpeg",
     	      "caption":"First place award picture."
@@ -182,7 +182,7 @@
     "acheivement":"2nd Place",
     "images":[{
        "path":"images/Citadel/traders.jpg",
-        "caption":"A trader looks at the screen to monitor the performance of their algorithm in Rotman's simulated trading environment."
+        "caption":"A trader monitoring the performance of their algorithm in Rotman's simulated trading environment."
         }],
     "videos":[],
     "url":"",
